@@ -1,32 +1,36 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
-    return (
-        <footer className="footer p-10 bg-black text-white">
-  <div>
-    
-    <p className='text-2xl pt-7'>College Information .<br/>Providing reliable information since 2000</p>
-  </div> 
-  <div>
-    <span className="footer-title">Services</span> 
-    <a className="link link-hover">Info</a> 
-    <a className="link link-hover">Details</a> 
-    <a className="link link-hover">Course</a> 
-  </div> 
-  <div>
-    <span className="footer-title">Company</span> 
-    <a className="link link-hover">About us</a> 
-    <a className="link link-hover">Contact</a> 
-    <a className="link link-hover">Careerer</a>
-  </div> 
-  <div>
-    <span className="footer-title">Legal</span> 
-    <a className="link link-hover">Terms of use</a> 
-    <a className="link link-hover">Privacy policy</a> 
-    <a className="link link-hover">Cookie policy</a>
+  return <dir className=" py-10 flex justify-evenly items-center">
+  <div className="">
+  <ul className="flex gap-6 px-1 font-medium text-lg">
+  <li>
+    <Link to="/">Home</Link>
+  </li>
+  <li>
+    <Link to="/about">About</Link>
+  </li>
+  <li>
+    <Link to="/services">Services</Link>
+  </li>
+  <li>
+    <Link to="/contact">Contact</Link>
+  </li>
+</ul>
   </div>
-</footer>
-    );
+
+  <div className=' lg:w-[10%]'>
+        <img className='w-full' src="https://i.ibb.co/xMFYMRd/umblrlla-Logo.jpg" alt="About picture" />
+    </div>
+
+  <div className="w-[30%] flex flex-col items-center">
+<img className='w-[50%]' src="https://umbrellacover.co.uk/wp-content/uploads/2023/08/ico_CookieScript-300x125.png" alt="footer logo" />
+<p>Umbrella is registered with ICO (Information commissioners office) and complaint with PCI DSS</p>
+  </div>
+
+
+</dir>
 };
 
 export default Footer;

@@ -5,7 +5,7 @@ import Footer from './componant/Footer';
 
 const Mainn = () => {
     return (
-        <div className='w-[90%] mx-auto'>
+        <div className=''>
             <Header></Header>
             <Outlet></Outlet>
             <Footer></Footer>
