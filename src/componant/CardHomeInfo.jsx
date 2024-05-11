@@ -3,69 +3,88 @@ import { Link } from "react-router-dom";
 
 const CardHomeInfo = () => {
   return (
-    <div>
-      <h1 className="font-semibold text-4xl  my-5 text-center">
-        Home Page service card
-      </h1>
+    <>
+    {/* service */}
+      <div className="bg-slate-200 pt-10 pb-12">
+        <h1 className="font-bold lg:text-5xl  my-5 text-center text-blue-700">
+          Our Services
+          <div className="mt-6 border-2  border-blue-400 mx-auto w-[13%]"></div>
+        </h1>
 
-      <div className="lg:flex justify-evenly gap-4 mt-12 mb-20">
+        <div className="lg:flex justify-evenly gap-4 mt-12 mb-20">
+          <div className="card w-96 bg-base-100 shadow-xl hover:shadow-2xl">
+            <figure>
+              <img
+                className="w-full h-[350px]"
+                src="https://www.shutterstock.com/image-photo/summer-road-trip-car-vacation-260nw-76499428.jpg"
+                alt="Ctg College"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Car Insurance</h2>
+              <p>
+                Social use, commuting to work or business use, we have got the
+                right car insurance cover for you at best deal
+              </p>
 
-        <div className="card w-96 bg-base-100 shadow-xl hover:shadow-2xl">
-          <figure>
-            <img
-              src="https://upload.wikimedia.org/wikipedia/en/5/54/Chittagong_College_logo.png"
-              alt="Ctg College"
-            />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title">Chittagong College</h2>
-            <p>Established: 1869</p>
-            <p>Location: Chawkbazar, Chittagong,</p>
-            <p>Current Student: 18000+</p>
-            <div className="card-actions justify-start">
-            <Link className="btn btn-primary" to="/">View All</Link>
+              <div className="card-actions justify-center mt-4">
+                <Link className="btn btn-primary" to="/">
+                  View All
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="card w-96 bg-base-100 shadow-xl hover:shadow-2xl">
+            <figure>
+              <img
+                className="w-full h-[350px]"
+                src="https://sterling-wordpress.s3.amazonaws.com/uploads/2019/11/van-insurance-480x980-480x677.jpg"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Van Insurance</h2>
+              <p>
+                Carriage of own goods helps you grow your business and we have
+                it all for any type of uses. Try a free quote below!
+              </p>
+
+              <div className="card-actions justify-center mt-4">
+                <Link className="btn btn-primary" to="/">
+                  View All
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="card w-96 bg-base-100 shadow-xl hover:shadow-2xl">
+            <figure>
+              <img
+                className="w-full h-[350px]"
+                src="https://s.yimg.com/ny/api/res/1.2/V78VG_Tpb5faZxkRoallog--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM3Mg--/https://media.zenfs.com/en/evening_standard_239/777235bf808f9a8569e1e457f7827be3"
+                alt="City clg"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Food Delivery/Higher & Reward</h2>
+              <p>
+                The most expensive insurance cover comes for Food
+                delivery/Courier, but we do the exception!
+              </p>
+              <div className="card-actions justify-center mt-4">
+                <Link className="btn btn-primary" to="/">
+                  View All
+                </Link>
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="card w-96 bg-base-100 shadow-xl hover:shadow-2xl">
-          <figure>
-            <img
-              src="https://upload.wikimedia.org/wikipedia/en/9/97/Mohsin_College_Logo.jpg"
-              alt="Mohsin clg"
-            />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title">Govt. Hazi Muhammad Mohsin College</h2>
-            <p>Established: 1874</p>
-            <p>Location: Chawkbazar, Chittagong,</p>
-            <p>Current Student: 20000+</p>
-            <div className="card-actions justify-center">
-            <Link className="btn btn-primary" to="/">View All</Link>
-            </div>
-          </div>
-        </div>
-
-        <div className="card w-96 bg-base-100 shadow-xl hover:shadow-2xl">
-          <figure>
-            <img
-              src=""
-              alt="City clg"
-            />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title">Government City College</h2>
-            <p>Established: 1954</p>
-            <p>Location: New Market, Chittagong-4000</p>
-            <p>Current Student: 16000+</p>
-            <div className="card-actions justify-end">
-              
-              <Link className="btn btn-primary" to="/">View All</Link>
-            </div>
-          </div>
-        </div>
+        <h1 className="border-2 border-blue-600 font-semibold rounded-md w-[25%] mx-auto px-8 py-3 bg-blue-600 hover:bg-blue-500 text-white text-center">
+          Give us a call- 0151 452 3321
+        </h1>
       </div>
-    </div>
+    </>
   );
 };
 

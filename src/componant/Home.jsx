@@ -5,20 +5,30 @@ const Home = () => {
     return (
         
         <div>
-            <div className='flex items-center gap-5 my-5'>
-            <div className='w-[50%]'>
-                <h1 className='text-5xl font-semibold text-blue-700 mb-4'>Find the best college <br /> In town for you</h1>
-
-                <p className='text-xl w-[90%] text-black'>Education is the key to a better future. It opens up opportunities, improves our lives, and makes the world a better place. Educated people are more likely to be employed, earn higher wages, and live longer, healthier lives. They are also more likely to be involved in their communities and make positive contributions to society.</p>
+            
+            <div className=' overflow-hidden'>
+                <img className='rounded-xl hover:scale-110 transition duration-500 cursor-pointer object-cover' src="https://static.vecteezy.com/system/resources/previews/005/709/282/large_2x/panoramic-view-over-icelandic-landscape-of-big-volcanic-caldera-askja-in-the-middle-of-volcanic-desert-in-highlands-with-red-turquoise-and-orange-volcano-soil-at-sunset-colors-iceland-photo.jpg" alt="" />
             </div>
 
-            <div className='w-[50%] overflow-hidden'>
-                <img className='rounded-xl hover:scale-110 transition duration-500 cursor-pointer object-cover' src="https://www.companysetup.ae/wp-content/uploads/2022/04/set-up-education-institution-in-dubai.jpeg" alt="" />
+
+
+        <CardHomeInfo></CardHomeInfo>
+
+        {/* home about */}
+        <div className=' lg:py-16 flex justify-evenly items-center gap-8'>
+            <div className='lg:w-[40%]'>
+                <p>ABOUT US</p>
+                <p className='text-4xl font-serif my-5'>WE ARE AN INDEPENDENT INSURANCE BROKER</p>
+                <p>We search the cheapest available price for you with your consent. We do not work for any specific insurance company or broker and do not administrate or monitor any of our customers policy</p>
+                <button className='border px-8 py-3 mt-5 rounded-md border-gray-500 hover:border-blue-600 hover:text-blue-600'>Find Out More</button>
+            </div>
+
+            <div className=' lg:w-[25%]'>
+                <img className='w-full' src="https://i.ibb.co/xMFYMRd/umblrlla-Logo.jpg" alt="About picture" />
             </div>
         </div>
 
 
-        <CardHomeInfo></CardHomeInfo>
         </div>
     );
 };
