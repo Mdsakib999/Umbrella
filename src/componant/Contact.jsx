@@ -31,15 +31,15 @@ const Contact = () => {
     <div>
       <div>
         <img
-          className="w-full h-[400px]"
+          className="w-full lg:h-[400px]"
           src="https://t3.ftcdn.net/jpg/04/81/31/66/360_F_481316696_cPzBNRfqMpbq2cx2soWytWAjhzZYByS4.jpg"
           alt=""
         />
       </div>
 
-      <div className=" lg:w-[70%] mx-auto mt-24 flex justify-between text-lg">
-        <div className=" w-[40%]">
-          <p className="font-medium text-4xl font-serif mb-10">
+      <div className=" lg:w-[70%] mx-auto mt-24 lg:flex justify-between text-lg">
+        <div className=" lg:w-[40%] ps-10 lg:ps-0">
+          <p className="font-medium lg:text-4xl text-3xl font-serif mb-10">
             You can find us at
           </p>
 
@@ -56,8 +56,8 @@ const Contact = () => {
         </div>
 
 {/* form part */}
-        <div className=" w-[50%]">
-        <p className="font-medium text-4xl font-serif mb-10">
+        <div className=" mt-12 lg:mt-0 lg:w-[50%] px-5 lg:px-0">
+        <p className="font-medium text-3xl lg:text-4xl font-serif mb-10">
         Let's get in touch
           </p>
           <form onSubmit={handleSubmit} className=" mt-8 p-4 ">
@@ -126,10 +126,10 @@ const Contact = () => {
         >
           <div className=" flex h-full items-center justify-center">
             <div className=" text-white">
-              <h2 className="mb-4 text-6xl text-blue-600 font-semibold">
+              <h2 className="mb-4 lg:text-6xl text-3xl text-blue-600 font-semibold">
                 Why choose us?
               </h2>
-              <ol className="text-left mt-10 mb-12 text-xl font-semibold leading-10">
+              <ol className="text-left mt-10 mb-12 text-xl font-semibold leading-10 px-8 lg:px-0">
                 <li>
                   1. Specialized quotation team to search the best out of the
                   market
@@ -149,7 +149,7 @@ const Contact = () => {
                 Get a Quote Now
               </button>
 
-              <p className="lg:w-[60%] mx-auto mt-8 rounded border-2 border-blue-600 bg-blue-600 py-5 font-medium leading-normal hover:border-blue-700 hover:bg-blue-700 ">CALL US TOLL FREE: 00000000000</p>
+              <p className="lg:w-[60%] w-[80%] mx-auto mt-8 rounded border-2 border-blue-600 bg-blue-600 py-5 font-medium leading-normal hover:border-blue-700 hover:bg-blue-700 ">CALL US TOLL FREE: 00000000000</p>
             </div>
           </div>
         </div>

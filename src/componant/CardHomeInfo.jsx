@@ -11,7 +11,7 @@ const CardHomeInfo = () => {
           <div className="mt-6 border-2  border-blue-400 mx-auto w-[13%]"></div>
         </h1>
 
-        <div className="lg:flex justify-evenly gap-4 mt-12 mb-20">
+        <div className=" flex flex-col lg:flex-row justify-evenly items-center gap-8 lg:gap-3 mt-12 mb-20">
           <div className="card w-96 bg-base-100 shadow-xl hover:shadow-2xl">
             <figure>
               <img
@@ -80,7 +80,7 @@ const CardHomeInfo = () => {
           </div>
         </div>
 
-        <h1 className="border-2 border-blue-600 font-semibold rounded-md w-[25%] mx-auto px-8 py-3 bg-blue-600 hover:bg-blue-500 text-white text-center">
+        <h1 className="border-2 border-blue-600 font-semibold rounded-md w-[80%] lg:w-[25%] mx-auto px-8 py-3 bg-blue-600 hover:bg-blue-500 text-white text-center">
           Give us a call- 0151 452 3321
         </h1>
       </div>
