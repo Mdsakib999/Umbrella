@@ -5,21 +5,21 @@ const CustomerFeedback = () => {
     {
       text: `Lorem ipsum dolor sit amet consectetur adipi sicing elit. Dolores, ducimus. adipi sicing elit. Dolores, ducimus.`,
       name: "Abdul Hakim",
-      title: "Feed Miller",
+      title: "Software Engineer",
       image:
         "https://img.freepik.com/free-photo/awkward-smiling-man-feel-indecisive_176420-18009.jpg?w=996&t=st=1701583573~exp=1701584173~hmac=0034ab6010aedc19e1c2bb3f3a7a37b59c533313a7c7b89ad9c6e06b70c72ed1",
     },
     {
       text: `Lorem ipsum dolor sit amet consectetur adipi sicing elit. Sed nec ipsum enim.  adipi sicing elit. Dolores, ducimus.`,
-      name: "John Doe",
-      title: "Hatchery Owner",
+      name: "John Own Kim",
+      title: "Marketing Specialist",
       image:
         "https://attractmorematches.com/wp-content/uploads/2023/10/Screenshot-2023-10-18-at-5.08.47-PM.png",
     },
     {
       text: `Lorem ipsum dolor sit amet consectetur adipi sicing elit. Nullam nec semper libero.  adipi sicing elit. Dolores, ducimus.`,
       name: "Angelina",
-      title: "Poultry Owner",
+      title: "Product Designer",
       image:
         "https://qph.cf2.quoracdn.net/main-qimg-f1f534fd992d4bbbd1b5c2bfb0b640a5-lq",
     },

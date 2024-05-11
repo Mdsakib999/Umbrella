@@ -50,7 +50,7 @@ const Home = () => {
       <CustomerFeedback></CustomerFeedback>
 
       {/* home about */}
-      <div className="lg:py-24 pt-6 lg:pt-0 lg:flex justify-evenly items-center gap-8 px-10 lg:px-0">
+      <div className=" lg:pb-20  pt-14 lg:flex justify-evenly items-center gap-8 px-10 lg:px-0">
         <div className="lg:w-[40%]">
           <p>ABOUT US</p>
           <p className="text-4xl font-serif my-5">
