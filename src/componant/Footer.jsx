@@ -2,7 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  return <dir className=" py-10 lg:flex justify-evenly items-center">
+  return <div>
+    <p className="bg-red-600 font-semibold text-white py-3 text-lg text-center"> <Link to='/privacy'>Privacy Policy</Link> | <Link to='/condition'>Terms & Conditions</Link> </p>
+    <dir className=" py-10 lg:flex justify-evenly items-center">
   <div className="">
   <ul className="flex justify-center gap-6 px-1 font-medium text-lg">
   <li>
@@ -30,7 +32,8 @@ const Footer = () => {
   </div>
 
 
-</dir>
+  </dir>
+  </div>
 };
 
 export default Footer;

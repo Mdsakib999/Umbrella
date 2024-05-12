@@ -89,9 +89,9 @@ function Form() {
   };
 
   return (
-    <div className='bg-slate-50 '>
+    <div className='bg-slate-50  lg:pb-16 pb-8'>
       <p className='py-5 font-medium text-center mb-3 text-xl'>Please answer all the questions best of your knowledge</p>
-      <form ref={form} onSubmit={handleSubmit} className="space-y-4 lg:w-[50%] w-[80%] mx-auto px-4 py-3 rounded-md shadow-lg bg-white">
+      <form ref={form} onSubmit={handleSubmit} className="space-y-4 lg:w-[50%] w-[80%] mx-auto lg:px-6 px-4 py-3 rounded-md shadow-lg bg-white">
         
         <div>
           <label className="block">First Name <span className='text-red-600 font-bold'>*</span></label>

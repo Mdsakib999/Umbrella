@@ -5,6 +5,8 @@ import About from './componant/About';
 import Services from './componant/Services';
 import Contact from './componant/Contact';
 import QuitForm from './componant/QuitForm';
+import Privacy from './componant/Privacy';
+import Condition from './componant/Condition';
 
 
 export const router = createBrowserRouter([
@@ -30,6 +32,16 @@ export const router = createBrowserRouter([
             {
                 path: "/quit",
                 element: <QuitForm></QuitForm>,
+                
+            },
+            {
+                path: "/privacy",
+                element: <Privacy></Privacy>,
+                
+            },
+            {
+                path: "/condition",
+                element: <Condition></Condition>,
                 
             },
             {
