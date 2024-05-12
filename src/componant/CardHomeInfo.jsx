@@ -28,7 +28,7 @@ const CardHomeInfo = () => {
               </p>
 
               <div className="card-actions justify-center mt-4">
-                <Link className="btn btn-primary" to="/">
+                <Link className="btn btn-primary" to="/quit">
                   View All
                 </Link>
               </div>
@@ -50,7 +50,7 @@ const CardHomeInfo = () => {
               </p>
 
               <div className="card-actions justify-center mt-4">
-                <Link className="btn btn-primary" to="/">
+                <Link className="btn btn-primary" to="/quit">
                   View All
                 </Link>
               </div>
@@ -72,7 +72,7 @@ const CardHomeInfo = () => {
                 delivery/Courier, but we do the exception!
               </p>
               <div className="card-actions justify-center mt-4">
-                <Link className="btn btn-primary" to="/">
+                <Link className="btn btn-primary" to="/quit">
                   View All
                 </Link>
               </div>
@@ -81,7 +81,7 @@ const CardHomeInfo = () => {
         </div>
 
         <h1 className="border-2 border-blue-600 font-semibold rounded-md w-[80%] lg:w-[25%] mx-auto px-8 py-3 bg-blue-600 hover:bg-blue-500 text-white text-center">
-          Give us a call- 0151 452 3321
+          Give us a call- +448000584756
         </h1>
       </div>
     </>

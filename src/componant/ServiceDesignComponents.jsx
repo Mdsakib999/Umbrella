@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const ServiceDesignComponents = ({ item }) => {
     const { title, subtitle, discription, buttonName, imgUrl, bgColor, id } = item
@@ -14,8 +15,10 @@ const ServiceDesignComponents = ({ item }) => {
                     <div className="w-full md:w-[50%] mx-auto space-y-6" >
                         <h1 className="text-3xl">{title}</h1>
                         <p className=" text-gray-500">{subtitle}</p>
-                        <h2 className="text-lg md:text-2xl">{discription}</h2>
-                        <button className="border border-black transition-all duration-300 hover:border-[#9BC804] hover:text-[#9BC804] px-6 py-3 rounded-md font-thin text-sm">{buttonName}</button>
+                        <h2 className="text-lg md:text-2xl mb-10">{discription}</h2>
+                        <Link to='/quit'>
+                        <button className=" mt-5 border border-black transition-all duration-300 hover:border-[#9BC804] hover:text-[#9BC804] px-6 py-3 rounded-md font-thin text-sm">{buttonName}</button>
+                        </Link>
                     </div>
                 </div>
             </div>

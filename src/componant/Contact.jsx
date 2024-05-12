@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -142,14 +143,14 @@ const Contact = () => {
                 <li>4. Free customer service for 12 months</li>
                 <li>5. Multilingual Customer Service team</li>
               </ol>
-              <button
+              <Link to='/quit'
                 type="button"
                 className="rounded border-2 border-blue-600 bg-blue-600 px-7 pb-[8px] pt-[10px] font-medium leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 "
               >
                 Get a Quote Now
-              </button>
+              </Link>
 
-              <p className="lg:w-[60%] w-[80%] mx-auto mt-8 rounded border-2 border-blue-600 bg-blue-600 py-5 font-medium leading-normal hover:border-blue-700 hover:bg-blue-700 ">CALL US TOLL FREE: 00000000000</p>
+              <p className="lg:w-[60%] w-[80%] mx-auto mt-8 rounded border-2 border-blue-600 bg-blue-600 py-5 font-medium leading-normal hover:border-blue-700 hover:bg-blue-700 ">CALL US TOLL FREE: +448000584756</p>
             </div>
           </div>
         </div>
