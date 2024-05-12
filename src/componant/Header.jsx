@@ -41,9 +41,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <a className="normal-case font-semibold text-3xl">
-          Lo<span className="text-blue-700">go</span>
-        </a>
+        <img src="https://i.ibb.co/3YpdScZ/Whats-App-Image-2024-05-12-at-4-25-07-PM-removebg-preview.png" alt="" />
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 font-semibold text-xl">
@@ -62,7 +60,7 @@ const Header = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <button className="btn btn-outline btn-primary">Get a Quit</button>
+        <Link to="/quit" className="btn btn-outline btn-primary">Get a Quit</Link>
       </div>
     </div>
     </div>

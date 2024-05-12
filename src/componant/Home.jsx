@@ -1,6 +1,7 @@
 import React from "react";
 import CardHomeInfo from "./CardHomeInfo";
 import CustomerFeedback from "./CustomerFeedback";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -27,17 +28,17 @@ const Home = () => {
                 have it all! Call us toll free or click below to get the
                 cheapest quote
               </p>
-              <button
+              <Link to="/quit"
                 type="button"
                 className="rounded border-2 border-blue-600 bg-blue-600 px-7 pb-[8px] pt-[10px] font-medium leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-blue-600 hover:bg-blue-700 "
               >
                 Get a Quote Now
-              </button>
+              </Link>
               <p
                 
-                className="rounded border-2 mt-8 lg:w-[30%] w-[70%] mx-auto border-blue-600 bg-blue-600 lg:px-7  pb-[8px] pt-[10px] font-medium leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-blue-600 hover:bg-blue-700 "
+                className="rounded border-2 mt-8 lg:w-[30%] w-[70%] mx-auto border-blue-600 bg-blue-600 lg:px-7  pb-[8px] pt-[10px] font-medium leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-blue-600 hover:bg-blue-700 cursor-pointer"
               >
-                Give us a call- 0151 452 3321
+                Give us a call- +448000584756
               </p>
             </div>
           </div>
@@ -107,12 +108,12 @@ const Home = () => {
                 <li>4. Free customer service for 12 months</li>
                 <li>5. Multilingual Customer Service team</li>
               </ol>
-              <button
-                type="button"
+              <Link to="/quit"
+                
                 className="rounded border-2 border-blue-600 bg-blue-600 px-7 pb-[8px] pt-[10px] font-medium leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 "
               >
                 Get a Quote Now
-              </button>
+              </Link>
             </div>
           </div>
         </div>

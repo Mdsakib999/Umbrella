@@ -1,5 +1,6 @@
 import React from 'react';
 import ServiceDesignComponents from './ServiceDesignComponents';
+import { Link } from 'react-router-dom';
 
 const Services = () => {
     const array = [
@@ -82,18 +83,7 @@ const Services = () => {
                     array.map(item => <ServiceDesignComponents key={item.id} item={item} />)
                 }
             </div>
-            {/* <div className={`bg-[url("https://umbrellacover.co.uk/wp-content/uploads/2023/08/car-transportation-car-wallpapers-6603726.jpg")] w-full bg-cover h-full flex flex-col items-center `}>
-                <h1 className='text-[#051F83] text-4xl font-bold'>Why choose us?</h1>
-                <div className='text-xl'>
-                    {
-                        chooseArray.map(({ id, p }) => (
-
-                            <p p key={id} > <span>{id}.</span> {p} </p>
-
-                        ))
-                    }
-                </div>
-            </div> */}
+            
             <div className="relative w-full h-full  md:h-[calc(100vh-80px)] flex flex-col justify-center items-center overflow-hidden px-2 md:px-0">
                 <div className="absolute inset-0 z-0">
                     <img
@@ -113,8 +103,8 @@ const Services = () => {
                         ))}
                     </div>
                     <div className='mt-8 flex flex-col justify-center items-center gap-6'>
-                        <button className='bg-blue-600 text-black hover:bg-blue-700 transition-all duration-200 px-11 py-4'>Get a Quote Now</button>
-                        <button className='bg-blue-600 text-black hover:bg-blue-700 transition-all duration-200 px-11 py-6 md:text-2xl uppercase underline'>Call us toll free: 00000000000</button>
+                        <Link to="/quit" className='bg-blue-600 text-black hover:bg-blue-700 transition-all duration-200 px-11 py-4'>Get a Quote Now</Link>
+                        <button className='bg-blue-600 text-black hover:bg-blue-700 transition-all duration-200 px-11 py-6 md:text-2xl uppercase underline '>Call us toll free: +448000584756</button>
                     </div>
                 </div>
             </div>
