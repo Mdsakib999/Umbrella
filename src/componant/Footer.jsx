@@ -20,8 +20,8 @@ const Footer = () => {
 </ul>
   </div>
 
-  <div className=' lg:w-[10%] w-[50%] mx-auto lg:mx-0 my-10 lg:my-0'>
-        <img className='w-full' src="https://i.ibb.co/xMFYMRd/umblrlla-Logo.jpg" alt="About picture" />
+  <div className=' lg:w-[20%] w-[50%] mx-auto lg:mx-0 my-10 lg:my-0'>
+        <img className='w-full' src="https://i.ibb.co/1QpyjB9/Whats-App-Image-2024-05-12-at-4-16-50-PM-removebg-preview.png" alt="About picture" />
     </div>
 
   <div className="lg:w-[30%] flex flex-col items-center">

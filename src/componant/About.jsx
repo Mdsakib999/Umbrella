@@ -34,7 +34,7 @@ const About = () => {
           do not work for any specific insurance company or broker and do not
           administrate or monitor any of our customers policy
         </p>
-        <img className="w-[80%] lg:w-[40%]" src="https://i.ibb.co/xMFYMRd/umblrlla-Logo.jpg" alt="" />
+        <img className="w-[80%] lg:w-[40%] lg:my-9" src="https://i.ibb.co/1QpyjB9/Whats-App-Image-2024-05-12-at-4-16-50-PM-removebg-preview.png" alt="" />
 
         <div className="lg:flex justify-evenly text-center w-[80%] my-16 ">
           <div className="lg:w-[40%] ">

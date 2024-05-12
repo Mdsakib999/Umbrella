@@ -67,10 +67,10 @@ const Home = () => {
           </button>
         </div>
 
-        <div className=" lg:w-[25%] w-[80%] m-8 lg:m-0 ">
+        <div className=" lg:w-[30%] w-[80%] m-8 lg:m-0 ">
           <img
             className="w-full"
-            src="https://i.ibb.co/xMFYMRd/umblrlla-Logo.jpg"
+            src="https://i.ibb.co/1QpyjB9/Whats-App-Image-2024-05-12-at-4-16-50-PM-removebg-preview.png"
             alt="About picture"
           />
         </div>

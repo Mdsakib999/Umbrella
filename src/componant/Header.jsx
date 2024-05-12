@@ -41,7 +41,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <img src="https://i.ibb.co/3YpdScZ/Whats-App-Image-2024-05-12-at-4-25-07-PM-removebg-preview.png" alt="" />
+        <img className="w-[200px]" src="https://i.ibb.co/1QpyjB9/Whats-App-Image-2024-05-12-at-4-16-50-PM-removebg-preview.png" alt="logo image" />
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 font-semibold text-xl">
