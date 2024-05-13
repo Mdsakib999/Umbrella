@@ -2,6 +2,8 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 function Form() {
+
+  
   const form = useRef();
   const [formData, setFormData] = useState({
     
@@ -205,7 +207,7 @@ function Form() {
         </div>
 
         <div>
-          <label className="block">If Yes, how many years of NCB you hav?</label>
+          <label className="block">If Yes, how many years of NCB you have?</label>
           <input type="number" name="ncbYear" value={formData.ncbYear} onChange={handleChange} className="lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
         </div>
 
@@ -246,7 +248,7 @@ function Form() {
 
         <div>
           <label className="block">When did you become resident of the UK? (Please type "Born" if you were born in UK) <span className='text-red-600 font-bold'>*</span></label>
-          <input required type="text" name="residentUk" value={formData.residentUk} onChange={handleChange} className="input" />
+          <input required type="text" name="residentUk" value={formData.residentUk} onChange={handleChange} className="mt-2 pb-2 border-b focus:outline-none w-[50%]" />
         </div>
 
         <div>
@@ -297,7 +299,7 @@ function Form() {
         </div>
 
         
-        <button type="submit" value="Send" className=" bg-gradient-to-r from-red-600 to-blue-600 hover:from-blue-600 hover:to-red-600 px-5 py-3 rounded-md text-white font-medium shadow-md">Submit</button>
+        <button type="submit" value="Send" className=" bg-red-600 hover:bg-red-700 px-5 py-3 rounded-md text-white font-medium shadow-md">Submit</button>
       </form>
     </div>
   );

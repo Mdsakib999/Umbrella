@@ -280,42 +280,113 @@
 // export default Form;
 
 
+// ---------------------------------------------
+
+// import React, { useRef } from 'react';
+// import emailjs from '@emailjs/browser';
+
+// const QuitForm = () => {
+//   const form = useRef();
+
+//   const sendEmail = (e) => {
+//     e.preventDefault();
+
+//     emailjs
+//       .sendForm('service_45mzuur', 'template_kx6g0sy', form.current, {
+//         publicKey: 'rY5m7SAUF-eQqaCLI',
+//       })
+//       .then(
+//         () => {
+//           console.log('SUCCESS!');
+//         },
+//         (error) => {
+//           console.log('FAILED...', error.text);
+//         },
+//       );
+//   };
+
+//   return (
+//     <form ref={form} onSubmit={sendEmail}>
+//       <label>Name</label>
+//       <input type="text" name="user_name" />
+//       <label>Email</label>
+//       <input type="email" name="user_email" />
+//       <label>Message</label>
+//       <textarea name="message" />
+//       <input type="submit" value="Send" />
+//     </form>
+//   );
+// };
+
+// export default QuitForm;
 
 
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
 
-const QuitForm = () => {
-  const form = useRef();
+import React, { useState, useEffect } from 'react';
+import { useLocation, Link } from 'react-router-dom';
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+const Home = () => {
+  const { pathname } = useLocation();
+  const [currentBackgroundIndex, setCurrentBackgroundIndex] = useState(0);
+  const backgrounds = [
+    "https://i.ibb.co/fD1SLcH/umbg3.jpg",
+    "https://i.ibb.co/3fZbVn1/umbg1.jpg",
+    "https://i.ibb.co/YPTmrgJ/umbg2.jpg"
+  ];
 
-    emailjs
-      .sendForm('service_45mzuur', 'template_kx6g0sy', form.current, {
-        publicKey: 'rY5m7SAUF-eQqaCLI',
-      })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      );
-  };
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentBackgroundIndex((prevIndex) => (prevIndex + 1) % backgrounds.length);
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
+    <div>
+      <div
+        className="relative overflow-hidden bg-cover bg-no-repeat p-12 text-center"
+        style={{
+          backgroundImage: `url('${backgrounds[currentBackgroundIndex]}')`,
+          height: "600px",
+        }}
+      >
+        <div
+          className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed"
+          style={{ backgroundColor: "rgba(0, 0, 0, 0.4)" }}
+        >
+          <div className="flex h-full items-center justify-center">
+            <div className="text-white">
+              <h2 className="mb-4 lg:text-6xl text-3xl text-blue-00 font-semibold">
+                Right cover at cheapest
+              </h2>
+              <p className="font-medium lg:text-lg w-[60%] mx-auto mt-12 mb-16">
+                Private Car, Commercial Use, Food Delivery, Business use, we
+                have it all! Call us toll free or click below to get the
+                cheapest quote
+              </p>
+              <Link
+                to="/quit"
+                type="button"
+                className="rounded px-7 pb-[10px] pt-[10px] font-medium bg-red-600 hover:bg-red-700"
+              >
+                Get a Quote Now
+              </Link>
+
+              <p className="rounded mt-8 lg:w-[30%] w-[70%] mx-auto lg:px-7 pb-[18px] pt-[18px] font-medium bg-red-600 hover:bg-red-700 cursor-pointer">
+                Give us a call- +448000584756
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 
-export default QuitForm;
+export default Home;
+

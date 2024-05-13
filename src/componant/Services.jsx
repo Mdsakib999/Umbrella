@@ -110,8 +110,8 @@ const Services = () => {
                         ))}
                     </div>
                     <div className='mt-8 flex flex-col justify-center items-center gap-6'>
-                        <Link to="/quit" className='bg-blue-600 text-black hover:bg-blue-700 transition-all duration-200 px-11 py-4'>Get a Quote Now</Link>
-                        <button className='bg-blue-600 text-black hover:bg-blue-700 transition-all duration-200 px-11 py-6 md:text-2xl uppercase underline '>Call us toll free: +448000584756</button>
+                        <Link to="/quit" className='bg-red-600 hover:bg-red-700 text-white rounded-md transition-all duration-200 px-11 py-4'>Get a Quote Now</Link>
+                        <button className='bg-red-600 hover:bg-red-700 text-white rounded-md transition-all duration-200 px-11 py-6 md:text-2xl uppercase underline '>Call us toll free: +448000584756</button>
                     </div>
                 </div>
             </div>

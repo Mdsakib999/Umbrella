@@ -68,10 +68,10 @@ const Contact = () => {
           </p>
 
           <p>EMAIL</p>
-          <p>hello@umbrellacover.co.uk</p>
+          <p>englandinsure@outlook.com</p>
 
           <p className="mt-10">TOLL FREE NUMBER</p>
-          <p>0151 452 3321</p>
+          <p>+448000584756</p>
 
           <p className="mt-10">Opening Hours</p>
           <p>Mon-Sat (9 am-7 pm)</p>
@@ -126,7 +126,7 @@ const Contact = () => {
             <button
               type="submit"
               value="Send"
-              className="bg-gradient-to-r from-red-600 to-blue-600 hover:from-blue-600 hover:to-red-600 px-5 py-3 rounded-md text-white font-medium shadow-md"
+              className="bg-red-600 hover:bg-red-700 px-5 py-3 rounded-md text-white font-medium shadow-md"
             >
               Submit
             </button>
@@ -169,12 +169,12 @@ const Contact = () => {
               </ol>
               <Link to='/quit'
                 type="button"
-                className=" bg-gradient-to-r from-red-600 to-blue-600 hover:from-blue-600 hover:to-red-600 px-6 py-3 rounded-md text-white font-medium shadow-md "
+                className=" bg-red-600 hover:bg-red-700 px-6 py-3 rounded-md text-white font-medium shadow-md "
               >
                 Get a Quote Now
               </Link>
 
-              <p className="lg:w-[60%] w-[80%] mx-auto mt-8 mb-20 lg:mb-4 bg-gradient-to-r from-red-600 to-blue-600 hover:from-blue-600 hover:to-red-600 px-4 py-4 rounded-md text-white font-medium shadow-md ">CALL US TOLL FREE: +448000584756</p>
+              <p className="lg:w-[60%] w-[80%] mx-auto mt-8 mb-20 lg:mb-4 bg-red-600 hover:bg-red-700 px-4 py-4 rounded-md text-white font-medium shadow-md ">CALL US TOLL FREE: +448000584756</p>
             </div>
           </div>
         </div>

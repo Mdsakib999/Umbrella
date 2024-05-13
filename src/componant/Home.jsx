@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import CardHomeInfo from "./CardHomeInfo";
 import CustomerFeedback from "./CustomerFeedback";
 import { Link, useLocation } from "react-router-dom";
@@ -6,6 +6,21 @@ import { Link, useLocation } from "react-router-dom";
 const Home = () => {
   const { pathname } = useLocation();
 
+  const [currentBackgroundIndex, setCurrentBackgroundIndex] = useState(0);
+  const backgrounds = [
+    "https://i.ibb.co/fD1SLcH/umbg3.jpg",
+    "https://i.ibb.co/b7KxpVm/umbg2.jpg",
+    "https://i.ibb.co/QbHSjXT/umb-bg1.jpg"
+  ];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentBackgroundIndex((prevIndex) => (prevIndex + 1) % backgrounds.length);
+    }, 4000);
+    return () => clearInterval(interval);
+  }, []);
+
+  // scroll top
   useEffect(() => {
     window.scroll(0, 0);
   }, [pathname]);
@@ -15,9 +30,8 @@ const Home = () => {
       <div
         className="relative overflow-hidden bg-cover bg-no-repeat p-12 text-center "
         style={{
-          backgroundImage:
-            "url('https://static.vecteezy.com/system/resources/previews/005/709/282/large_2x/panoramic-view-over-icelandic-landscape-of-big-volcanic-caldera-askja-in-the-middle-of-volcanic-desert-in-highlands-with-red-turquoise-and-orange-volcano-soil-at-sunset-colors-iceland-photo.jpg')",
-          height: "600px",
+          backgroundImage: `url('${backgrounds[currentBackgroundIndex]}')`,
+          height: "650px",
         }}
       >
         <div
@@ -26,7 +40,7 @@ const Home = () => {
         >
           <div className=" flex h-full items-center justify-center">
             <div className=" text-white">
-              <h2 className="mb-4 lg:text-6xl text-3xl text-blue-500 font-semibold">
+              <h2 className="mb-4 lg:text-6xl text-3xl text-blue-00 font-semibold">
                 Right cover at cheapest
               </h2>
               <p className="font-medium lg:text-lg w-[60%] mx-auto mt-12 mb-16">
@@ -37,12 +51,12 @@ const Home = () => {
               <Link
                 to="/quit"
                 type="button"
-                className="rounded  px-7 pb-[10px] pt-[10px] font-medium bg-gradient-to-r from-red-600 to-blue-600 hover:from-blue-600 hover:to-red-600"
+                className="rounded  px-7 pb-[10px] pt-[10px] font-medium bg-red-600 hover:bg-red-700"
               >
                 Get a Quote Now
               </Link>
               
-              <p className="rounded mt-8 lg:w-[30%] w-[70%] mx-auto lg:px-7  pb-[18px] pt-[18px] font-medium bg-gradient-to-r from-red-600 to-blue-600 hover:from-blue-600 hover:to-red-600 cursor-pointer">
+              <p className="rounded mt-8 lg:w-[30%] w-[70%] mx-auto lg:px-7  pb-[18px] pt-[18px] font-medium bg-red-600 hover:bg-red-700 cursor-pointer">
                 Give us a call- +448000584756
               </p>
             </div>
@@ -70,7 +84,7 @@ const Home = () => {
 
           <button
             type="button"
-            class=" text-white border font-medium rounded-lg text-sm px-5 py-2.5 text-center mt-4 mr-2 mb-2 bg-gradient-to-r from-red-600 to-blue-600 hover:from-blue-600 hover:to-red-600"
+            class=" text-white border font-medium rounded-lg text-sm px-5 py-2.5 text-center mt-4 mr-2 mb-2 bg-red-600 hover:bg-red-700"
           >
             Find Out More
           </button>
@@ -117,9 +131,15 @@ const Home = () => {
                 <li>4. Free customer service for 12 months</li>
                 <li>5. Multilingual Customer Service team</li>
               </ol>
-              <Link
+              {/* <Link
                 to="/quit"
                 className=" font-medium bg-gradient-to-r from-red-600 to-blue-600 hover:from-blue-600 hover:to-red-600 px-6 py-4 rounded-md text-white shadow-md "
+              >
+                Get a Quote Now
+              </Link> */}
+              <Link
+                to="/quit"
+                className=" font-medium bg-red-600 hover:bg-red-700 px-6 py-4 rounded-md text-white shadow-md "
               >
                 Get a Quote Now
               </Link>

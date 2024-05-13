@@ -28,7 +28,7 @@ const Footer = () => {
 
   <div className=" lg:w-[30%] flex flex-col items-center mr-8 lg:mr-0">
 <img className='w-[50%]' src="https://umbrellacover.co.uk/wp-content/uploads/2023/08/ico_CookieScript-300x125.png" alt="footer logo" />
-<p>Umbrella is registered with ICO (Information commissioners office) and complaint with PCI DSS</p>
+<p>England insure is registered with ICO (Information commissioners office) and complaint with PCI DSS</p>
   </div>
 
 
