@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import CardHomeInfo from "./CardHomeInfo";
 import CustomerFeedback from "./CustomerFeedback";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Home = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scroll(0, 0);
+  }, [pathname]);
+
   return (
     <div>
       <div
@@ -28,16 +34,15 @@ const Home = () => {
                 have it all! Call us toll free or click below to get the
                 cheapest quote
               </p>
-              <Link to="/quit"
+              <Link
+                to="/quit"
                 type="button"
-                className="rounded border-2 border-blue-600 bg-blue-600 px-7 pb-[8px] pt-[10px] font-medium leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-blue-600 hover:bg-blue-700 "
+                className="rounded  px-7 pb-[10px] pt-[10px] font-medium bg-gradient-to-r from-red-600 to-blue-600 hover:from-blue-600 hover:to-red-600"
               >
                 Get a Quote Now
               </Link>
-              <p
-                
-                className="rounded border-2 mt-8 lg:w-[30%] w-[70%] mx-auto border-blue-600 bg-blue-600 lg:px-7  pb-[8px] pt-[10px] font-medium leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-blue-600 hover:bg-blue-700 cursor-pointer"
-              >
+              
+              <p className="rounded mt-8 lg:w-[30%] w-[70%] mx-auto lg:px-7  pb-[18px] pt-[18px] font-medium bg-gradient-to-r from-red-600 to-blue-600 hover:from-blue-600 hover:to-red-600 cursor-pointer">
                 Give us a call- +448000584756
               </p>
             </div>
@@ -62,7 +67,11 @@ const Home = () => {
             do not work for any specific insurance company or broker and do not
             administrate or monitor any of our customers policy
           </p>
-          <button className="border px-8 py-3 mt-5 rounded-md border-gray-500 hover:border-blue-600 hover:text-blue-600">
+
+          <button
+            type="button"
+            class=" text-white border font-medium rounded-lg text-sm px-5 py-2.5 text-center mt-4 mr-2 mb-2 bg-gradient-to-r from-red-600 to-blue-600 hover:from-blue-600 hover:to-red-600"
+          >
             Find Out More
           </button>
         </div>
@@ -108,9 +117,9 @@ const Home = () => {
                 <li>4. Free customer service for 12 months</li>
                 <li>5. Multilingual Customer Service team</li>
               </ol>
-              <Link to="/quit"
-                
-                className="rounded border-2 border-blue-600 bg-blue-600 px-7 pb-[8px] pt-[10px] font-medium leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 "
+              <Link
+                to="/quit"
+                className=" font-medium bg-gradient-to-r from-red-600 to-blue-600 hover:from-blue-600 hover:to-red-600 px-6 py-4 rounded-md text-white shadow-md "
               >
                 Get a Quote Now
               </Link>

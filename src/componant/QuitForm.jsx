@@ -297,7 +297,7 @@ function Form() {
         </div>
 
         
-        <button type="submit" value="Send" className="mt- bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold shadow-lg hover:bg-blue-700">Submit</button>
+        <button type="submit" value="Send" className=" bg-gradient-to-r from-red-600 to-blue-600 hover:from-blue-600 hover:to-red-600 px-5 py-3 rounded-md text-white font-medium shadow-md">Submit</button>
       </form>
     </div>
   );

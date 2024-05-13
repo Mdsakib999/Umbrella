@@ -1,6 +1,12 @@
-import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 const ServiceDesignComponents = ({ item }) => {
+    const {pathname} = useLocation();
+
+    useEffect(() => {
+      window.scroll(0,0);
+    }, [pathname]);
     const { title, subtitle, discription, buttonName, imgUrl, bgColor, id } = item
     console.log(bgColor);
     return (

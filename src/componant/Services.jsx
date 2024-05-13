@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ServiceDesignComponents from './ServiceDesignComponents';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const Services = () => {
+
+    const {pathname} = useLocation();
+
+    useEffect(() => {
+      window.scroll(0,0);
+    }, [pathname]);
+
     const array = [
         {
             id: '1',
@@ -78,7 +85,7 @@ const Services = () => {
 
     return (
         <div>
-            <div className='space-y-6'>
+            <div className='space-y-6 '>
                 {
                     array.map(item => <ServiceDesignComponents key={item.id} item={item} />)
                 }

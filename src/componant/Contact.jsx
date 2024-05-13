@@ -1,7 +1,14 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 const Contact = () => {
+
+  const {pathname} = useLocation();
+
+  // useEffect(() => {
+  //   window.scroll(0,0);
+  // }, [pathname]);
+
   const [formData, setFormData] = useState({
     name: "",
     contactNumber: "",
@@ -102,7 +109,7 @@ const Contact = () => {
             </div>
             <button
               type="submit"
-              className="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700"
+              className="bg-gradient-to-r from-red-600 to-blue-600 hover:from-blue-600 hover:to-red-600 px-5 py-3 rounded-md text-white font-medium shadow-md"
             >
               Submit
             </button>
@@ -145,12 +152,12 @@ const Contact = () => {
               </ol>
               <Link to='/quit'
                 type="button"
-                className="rounded border-2 border-blue-600 bg-blue-600 px-7 pb-[8px] pt-[10px] font-medium leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 "
+                className=" bg-gradient-to-r from-red-600 to-blue-600 hover:from-blue-600 hover:to-red-600 px-6 py-3 rounded-md text-white font-medium shadow-md "
               >
                 Get a Quote Now
               </Link>
 
-              <p className="lg:w-[60%] w-[80%] mx-auto mt-8 rounded border-2 border-blue-600 bg-blue-600 py-5 font-medium leading-normal hover:border-blue-700 hover:bg-blue-700 ">CALL US TOLL FREE: +448000584756</p>
+              <p className="lg:w-[60%] w-[80%] mx-auto mt-8 bg-gradient-to-r from-red-600 to-blue-600 hover:from-blue-600 hover:to-red-600 px-4 py-4 rounded-md text-white font-medium shadow-md ">CALL US TOLL FREE: +448000584756</p>
             </div>
           </div>
         </div>

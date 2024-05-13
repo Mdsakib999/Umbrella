@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const About = () => {
+
+  const {pathname} = useLocation();
+
+  useEffect(() => {
+    window.scroll(0,0);
+  }, [pathname]);
+
   return (
     <div>
       

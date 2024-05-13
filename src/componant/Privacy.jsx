@@ -1,7 +1,14 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 const Privacy = () => {
+
+  const {pathname} = useLocation();
+
+  useEffect(() => {
+    window.scroll(0,0);
+  }, [pathname]);
+
   return (
     <div className="bg-zinc-100">
       <h1 className="lg:text-4xl text-2xl pt-5 pb-3 font-bold text-center">

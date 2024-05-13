@@ -28,8 +28,8 @@ const CardHomeInfo = () => {
               </p>
 
               <div className="card-actions justify-center mt-4">
-                <Link className="btn btn-primary" to="/quit">
-                  View All
+                <Link className="bg-gradient-to-r from-red-600 to-blue-600 hover:from-blue-600 hover:to-red-600 px-4 py-2 rounded-md text-white font-medium shadow-md" to="/quit">
+                  Get a Quote
                 </Link>
               </div>
             </div>
@@ -50,8 +50,8 @@ const CardHomeInfo = () => {
               </p>
 
               <div className="card-actions justify-center mt-4">
-                <Link className="btn btn-primary" to="/quit">
-                  View All
+                <Link className="bg-gradient-to-r from-red-600 to-blue-600 hover:from-blue-600 hover:to-red-600 px-4 py-2 rounded-md text-white font-medium shadow-md" to="/quit">
+                  Get a Quote
                 </Link>
               </div>
             </div>
@@ -72,15 +72,15 @@ const CardHomeInfo = () => {
                 delivery/Courier, but we do the exception!
               </p>
               <div className="card-actions justify-center mt-4">
-                <Link className="btn btn-primary" to="/quit">
-                  View All
+                <Link className="bg-gradient-to-r from-red-600 to-blue-600 hover:from-blue-600 hover:to-red-600 px-4 py-2 rounded-md text-white font-medium shadow-md" to="/quit">
+                  Get a Quote
                 </Link>
               </div>
             </div>
           </div>
         </div>
 
-        <h1 className="border-2 border-blue-600 font-semibold rounded-md w-[80%] lg:w-[25%] mx-auto px-8 py-3 bg-blue-600 hover:bg-blue-500 text-white text-center">
+        <h1 className="w-[80%] lg:w-[25%] mx-auto text-center bg-gradient-to-r from-red-600 to-blue-600 hover:from-blue-600 hover:to-red-600 px-4 py-3 rounded-md text-white font-semibold shadow-md">
           Give us a call- +448000584756
         </h1>
       </div>
