@@ -1,13 +1,16 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
 
+  const form = useRef();
+
   const {pathname} = useLocation();
 
-  // useEffect(() => {
-  //   window.scroll(0,0);
-  // }, [pathname]);
+  useEffect(() => {
+    window.scroll(0,0);
+  }, [pathname]);
 
   const [formData, setFormData] = useState({
     name: "",
@@ -25,7 +28,20 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here
+    
+    emailjs
+      .sendForm('service_45mzuur', 'template_f1tv0tm', form.current, {
+        publicKey: 'rY5m7SAUF-eQqaCLI',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+
     console.log(formData);
     // Reset form fields
     setFormData({
@@ -68,7 +84,7 @@ const Contact = () => {
         <p className="font-medium text-3xl lg:text-4xl font-serif mb-10">
         Let's get in touch
           </p>
-          <form onSubmit={handleSubmit} className=" mt-8 p-4 ">
+          <form ref={form} onSubmit={handleSubmit} className=" mt-8 p-4 ">
             <div className="mb-4">
               
               <input
@@ -109,6 +125,7 @@ const Contact = () => {
             </div>
             <button
               type="submit"
+              value="Send"
               className="bg-gradient-to-r from-red-600 to-blue-600 hover:from-blue-600 hover:to-red-600 px-5 py-3 rounded-md text-white font-medium shadow-md"
             >
               Submit
