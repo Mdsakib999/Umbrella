@@ -374,7 +374,7 @@ const Home = () => {
                 type="button"
                 className="rounded px-7 pb-[10px] pt-[10px] font-medium bg-red-600 hover:bg-red-700"
               >
-                Get a Quote Now
+                
               </Link>
 
               <p className="rounded mt-8 lg:w-[30%] w-[70%] mx-auto lg:px-7 pb-[18px] pt-[18px] font-medium bg-red-600 hover:bg-red-700 cursor-pointer">

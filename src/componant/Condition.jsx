@@ -11,13 +11,12 @@ const Condition = () => {
   return (
     <div className="bg-zinc-100">
       <h1 className="lg:text-4xl text-2xl pt-5 pb-3 font-bold text-center">
-        TERMS & CONDTIONS
+        TERMS & CONDITIONS
       </h1>
       <div className="border-2 border-red-600 w-[15%] mx-auto mb-8"></div>
       <div className="lg:w-[75%] w-[90%] mx-auto">
         <p className="font-bold text-lg">
-          Sort Insurance Trading Under Sort Services Ltd (Company Number:
-          12894301).
+        England Insure Trading Under Sort Services Ltd.
         </p>
         <p className="font-bold text-lg mt-4 mb-5">
           We Can Assist You With Finding Quotations For Van Insurance, Fleet
@@ -450,7 +449,7 @@ const Condition = () => {
             16. Termination of Your Rights
           </p>
           <p className="pb-10">
-            Sort Price Searcher' part of Sort Services Ltd have right to issue a
+            Sort Price Searcher' part of England Insure Ltd have right to issue a
             warning, temporary suspension, or an indefinite suspension and
             termination of your rights to use our website If you inconsistently
             are in breach of our terms and conditions. Also if you violate or

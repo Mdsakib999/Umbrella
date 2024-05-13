@@ -171,7 +171,7 @@ const Contact = () => {
                 type="button"
                 className=" bg-red-600 hover:bg-red-700 px-6 py-3 rounded-md text-white font-medium shadow-md "
               >
-                Get a Quote Now
+                Get a Quote
               </Link>
 
               <p className="lg:w-[60%] w-[80%] mx-auto mt-8 mb-20 lg:mb-4 bg-red-600 hover:bg-red-700 px-4 py-4 rounded-md text-white font-medium shadow-md ">CALL US TOLL FREE: +448000584756</p>

@@ -17,7 +17,7 @@ const CardHomeInfo = () => {
               <img
                 className="w-full h-[350px]"
                 src="https://i.ibb.co/wddPRWN/car.jpg"
-                alt="Car pic"
+                alt="Car pi"
               />
             </figure>
             <div className="card-body">

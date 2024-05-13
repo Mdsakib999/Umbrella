@@ -16,10 +16,10 @@ const Services = () => {
             title: 'Car Insurance Price',
             subtitle: 'Social use, commuting to work or business use, we have got the right car insurance cover for you at best deal',
             discription: 'If you are a young driver, an international driving licence holder or holding a Provisional/L llicence, Umbrella is here to beat any other insurance prices on market!',
-            buttonName: 'Get a Quate',
+            buttonName: 'Get a Quote',
             imgUrl: [
                 {
-                    url: "https://umbrellacover.co.uk/wp-content/uploads/2023/08/womans-legs-ge54d6e25e_1920.jpg",
+                    url: "https://i.ibb.co/wddPRWN/car.jpg",
                     height: 'md:h-[500px]'
                 }
             ],
@@ -30,10 +30,10 @@ const Services = () => {
             title: 'Van Insurance',
             subtitle: 'Carriage of own goods helps you grow your business and we have it all for any type of uses. Try a free quote below!',
             discription: 'Use your van for Business or for Carriage of your goods at cheapest deal',
-            buttonName: 'Get a Quate',
+            buttonName: 'Get a Quote',
             imgUrl: [
                 {
-                    url: "https://umbrellacover.co.uk/wp-content/uploads/2023/08/00405-CONTENT-SHU-VanInsurance-Nissan-MOBILE_600x900px_HxW0900x0600_92a354ff-b6f8-4cc4-9674-b420b8ffa64d.webp",
+                    url: "https://i.ibb.co/w6yHy3y/van.jpg",
                     height: 'md:h-[750px]'
                 }
             ],
@@ -44,7 +44,7 @@ const Services = () => {
             title: 'Food Delivery/Higher & Reward',
             subtitle: 'Do you know, Uber eats and amazon requires a different category of insurance certificate from their delivery drivers! Don’t worry, we have sorted it out for our customers with just perfect cover.',
             discription: 'The most expensive insurance cover comes for Food delivery/Courier, but we do the exception, guaranteed cheaper than anything you find yourself!',
-            buttonName: 'Start a Project',
+            buttonName: 'Get a Quote',
             imgUrl: [
                 {
                     url: "https://umbrellacover.co.uk/wp-content/uploads/2023/08/um-uber.jpg",

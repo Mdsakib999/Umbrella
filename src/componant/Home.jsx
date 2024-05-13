@@ -82,12 +82,12 @@ const Home = () => {
             administrate or monitor any of our customers policy
           </p>
 
-          <button
+          <Link to='/quit'
             type="button"
             class=" text-white border font-medium rounded-lg text-sm px-5 py-2.5 text-center mt-4 mr-2 mb-2 bg-red-600 hover:bg-red-700"
           >
-            Find Out More
-          </button>
+            Get a Quote
+          </Link>
         </div>
 
         <div className=" lg:w-[30%] w-[80%] m-8 lg:m-0 ">
