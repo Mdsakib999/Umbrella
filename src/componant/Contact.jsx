@@ -151,10 +151,10 @@ const Contact = () => {
         >
           <div className=" flex h-full items-center justify-center">
             <div className=" text-white">
-              <h2 className="mb-4 lg:text-6xl text-3xl text-blue-600 font-semibold">
+              <h2 className="mb-4 mt-16 lg:mt-1 lg:text-6xl text-3xl text-blue-600 font-semibold">
                 Why choose us?
               </h2>
-              <ol className="text-left mt-10 mb-12 text-xl font-semibold leading-10 px-8 lg:px-0">
+              <ol className="text-left mt-10 mb-12 lg:text-xl font-semibold leading-10 px-8 lg:px-0">
                 <li>
                   1. Specialized quotation team to search the best out of the
                   market
@@ -174,7 +174,7 @@ const Contact = () => {
                 Get a Quote Now
               </Link>
 
-              <p className="lg:w-[60%] w-[80%] mx-auto mt-8 bg-gradient-to-r from-red-600 to-blue-600 hover:from-blue-600 hover:to-red-600 px-4 py-4 rounded-md text-white font-medium shadow-md ">CALL US TOLL FREE: +448000584756</p>
+              <p className="lg:w-[60%] w-[80%] mx-auto mt-8 mb-20 lg:mb-4 bg-gradient-to-r from-red-600 to-blue-600 hover:from-blue-600 hover:to-red-600 px-4 py-4 rounded-md text-white font-medium shadow-md ">CALL US TOLL FREE: +448000584756</p>
             </div>
           </div>
         </div>
