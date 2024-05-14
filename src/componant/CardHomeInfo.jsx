@@ -20,7 +20,7 @@ const CardHomeInfo = () => {
                 alt="Car pi"
               />
             </figure>
-            <div className="card-body bg-white rounded-2xl">
+            <div className="card-body bg-white rounded-b-2xl">
               <h2 className="card-title">Car Insurance</h2>
               <p>
                 Social use, commuting to work or business use, we have got the
@@ -42,7 +42,7 @@ const CardHomeInfo = () => {
                 src="https://i.ibb.co/w6yHy3y/van.jpg"
               />
             </figure>
-            <div className="card-body bg-white rounded-2xl">
+            <div className="card-body bg-white rounded-b-2xl">
               <h2 className="card-title">Van Insurance</h2>
               <p>
                 Carriage of own goods helps you grow your business and we have
@@ -61,11 +61,11 @@ const CardHomeInfo = () => {
             <figure>
               <img
                 className="w-full h-[350px]"
-                src="https://i.ibb.co/Y7SncCm/foodpic.jpg"
+                src="https://i.ibb.co/bJX0CRS/delivery.jpg"
                 alt="Food delivery"
               />
             </figure>
-            <div className="card-body bg-white rounded-2xl">
+            <div className="card-body bg-white rounded-b-2xl ">
               <h2 className="card-title">Food Delivery / Hire & Reward</h2>
               <p>
                 The most expensive insurance cover comes for Food

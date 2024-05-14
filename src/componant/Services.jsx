@@ -48,7 +48,7 @@ const Services = () => {
             imgUrl: [
                 
                 {
-                    url: "https://i.ibb.co/Y7SncCm/foodpic.jpg",
+                    url: "https://i.ibb.co/bJX0CRS/delivery.jpg",
                     height: 'md:h-[550px]'
                 },
             ],

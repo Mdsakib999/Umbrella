@@ -112,7 +112,7 @@ const Contact = () => {
                 value={formData.name}
                 onChange={handleChange}
                 placeholder="Enter your name"
-                className="w-full py-3 border-b focus:outline-none focus:border-blue-500"
+                className="w-full py-3 border-b focus:outline-none focus:border-blue-500 bg-white"
               />
             </div>
             <div className="mb-4">
@@ -125,7 +125,7 @@ const Contact = () => {
                 value={formData.contactNumber}
                 onChange={handleChange}
                 placeholder="Contact Number"
-                className="w-full py-3 border-b focus:outline-none focus:border-blue-500"
+                className="w-full py-3 border-b focus:outline-none focus:border-blue-500 bg-white"
               />
             </div>
             <div className="mb-4">
@@ -136,7 +136,7 @@ const Contact = () => {
                 value={formData.message}
                 onChange={handleChange}
                 placeholder="Enter your message"
-                className="w-full py-3 border-b focus:outline-none focus:border-blue-500"
+                className="w-full py-3 border-b focus:outline-none focus:border-blue-500 bg-white"
                 rows="4"
               ></textarea>
             </div>
