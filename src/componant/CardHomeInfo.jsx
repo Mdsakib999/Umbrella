@@ -16,11 +16,11 @@ const CardHomeInfo = () => {
             <figure>
               <img
                 className="w-full h-[350px]"
-                src="https://i.ibb.co/wddPRWN/car.jpg"
+                src="https://i.ibb.co/3FL7k0S/Whats-App-Image-2024-05-14-at-2-29-13-PM.jpg"
                 alt="Car pi"
               />
             </figure>
-            <div className="card-body">
+            <div className="card-body bg-white rounded-2xl">
               <h2 className="card-title">Car Insurance</h2>
               <p>
                 Social use, commuting to work or business use, we have got the
@@ -42,7 +42,7 @@ const CardHomeInfo = () => {
                 src="https://i.ibb.co/w6yHy3y/van.jpg"
               />
             </figure>
-            <div className="card-body">
+            <div className="card-body bg-white rounded-2xl">
               <h2 className="card-title">Van Insurance</h2>
               <p>
                 Carriage of own goods helps you grow your business and we have
@@ -61,12 +61,12 @@ const CardHomeInfo = () => {
             <figure>
               <img
                 className="w-full h-[350px]"
-                src="https://i.ibb.co/4MXLgV9/food.jpg"
+                src="https://i.ibb.co/Y7SncCm/foodpic.jpg"
                 alt="Food delivery"
               />
             </figure>
-            <div className="card-body">
-              <h2 className="card-title">Food Delivery/Higher & Reward</h2>
+            <div className="card-body bg-white rounded-2xl">
+              <h2 className="card-title">Food Delivery / Hire & Reward</h2>
               <p>
                 The most expensive insurance cover comes for Food
                 delivery/Courier, but we do the exception!
@@ -81,7 +81,7 @@ const CardHomeInfo = () => {
         </div>
 
         <h1 className="w-[80%] lg:w-[25%] mx-auto text-center bg-red-600 px-4 py-3 rounded-md text-white font-semibold shadow-md">
-          Give us a call- +448000584756
+          Give us a call: +448000584756 (Toll Free)
         </h1>
       </div>
     </>

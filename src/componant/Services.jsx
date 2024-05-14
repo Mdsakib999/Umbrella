@@ -19,8 +19,8 @@ const Services = () => {
             buttonName: 'Get a Quote',
             imgUrl: [
                 {
-                    url: "https://i.ibb.co/wddPRWN/car.jpg",
-                    height: 'md:h-[500px]'
+                    url: "https://i.ibb.co/7jtXk70/newCar.jpg",
+                    height: 'md:h-[550px]'
                 }
             ],
             bgColor: '#B6E0F1'
@@ -34,25 +34,22 @@ const Services = () => {
             imgUrl: [
                 {
                     url: "https://i.ibb.co/w6yHy3y/van.jpg",
-                    height: 'md:h-[750px]'
+                    height: 'md:h-[550px]'
                 }
             ],
             bgColor: '#CFE67F'
         },
         {
             id: '3',
-            title: 'Food Delivery/Higher & Reward',
+            title: 'Food Delivery / Hire & Reward',
             subtitle: 'Do you know, Uber eats and amazon requires a different category of insurance certificate from their delivery drivers! Don’t worry, we have sorted it out for our customers with just perfect cover.',
             discription: 'The most expensive insurance cover comes for Food delivery/Courier, but we do the exception, guaranteed cheaper than anything you find yourself!',
             buttonName: 'Get a Quote',
             imgUrl: [
+                
                 {
-                    url: "https://umbrellacover.co.uk/wp-content/uploads/2023/08/um-uber.jpg",
-                    height: 'h-[180px]'
-                },
-                {
-                    url: "https://umbrellacover.co.uk/wp-content/uploads/2023/08/depositphotos_423216766-stock-photo-seattle-washington-usa-june-2019.webp",
-                    height: 'md:h-[340px]'
+                    url: "https://i.ibb.co/Y7SncCm/foodpic.jpg",
+                    height: 'md:h-[550px]'
                 },
             ],
             bgColor: '#B6E0F1'
@@ -111,7 +108,7 @@ const Services = () => {
                     </div>
                     <div className='mt-8 flex flex-col justify-center items-center gap-6'>
                         <Link to="/quit" className='bg-red-600 hover:bg-red-700 text-white rounded-md transition-all duration-200 px-11 py-4'>Get a Quote Now</Link>
-                        <button className='bg-red-600 hover:bg-red-700 text-white rounded-md transition-all duration-200 px-11 py-6 md:text-2xl uppercase underline '>Call us toll free: +448000584756</button>
+                        <button className='bg-red-600 hover:bg-red-700 text-white rounded-md transition-all duration-200 px-11 py-6 md:text-2xl uppercase  '>Call us toll free: +448000584756 (Toll Free)</button>
                     </div>
                 </div>
             </div>

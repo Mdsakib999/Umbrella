@@ -6,6 +6,8 @@ import { TbPhoneCall } from "react-icons/tb";
 import { FaWhatsapp } from "react-icons/fa";
 import { MdOutlineDateRange } from "react-icons/md";
 import { FaFacebookSquare } from "react-icons/fa";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
 
@@ -13,9 +15,9 @@ const Contact = () => {
 
   const {pathname} = useLocation();
 
-  // useEffect(() => {
-  //   window.scroll(0,0);
-  // }, [pathname]);
+  useEffect(() => {
+    window.scroll(0,0);
+  }, [pathname]);
 
   const [formData, setFormData] = useState({
     name: "",
@@ -41,6 +43,7 @@ const Contact = () => {
       .then(
         () => {
           console.log('SUCCESS!');
+          toast("Welcome to England Insure & Thank you for your interest. One of our colleague will contact you within 3-4 hours.");
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -56,6 +59,8 @@ const Contact = () => {
     });
   };
 
+
+
   return (
     <div>
       <div>
@@ -66,7 +71,7 @@ const Contact = () => {
         />
       </div>
 
-      <div className=" lg:w-[70%] mx-auto mt-24 lg:flex justify-between text-lg">
+      <div className=" bg-white lg:w-[70%] mx-auto mt-24 lg:flex justify-between text-lg">
         <div className=" lg:w-[40%] ps-10 lg:ps-0">
           <p className="font-medium lg:text-4xl text-3xl font-serif mb-10">
             You can find us at
@@ -144,7 +149,7 @@ const Contact = () => {
             </button>
           </form>
         </div>
-
+        
       </div>
 
       {/* why choose */}
@@ -186,12 +191,14 @@ const Contact = () => {
                 Get a Quote
               </Link>
 
-              <p className="lg:w-[60%] w-[80%] mx-auto mt-8 mb-20 lg:mb-4 bg-red-600 hover:bg-red-700 px-4 py-4 rounded-md text-white font-medium shadow-md ">CALL US TOLL FREE: +448000584756</p>
+              <p className="lg:w-[60%] w-[80%] mx-auto mt-8 mb-20 lg:mb-4 bg-red-600 hover:bg-red-700 px-4 py-4 rounded-md text-white font-medium shadow-md ">CALL US TOLL FREE: +448000584756 (Toll Free)</p>
             </div>
           </div>
         </div>
       </div>
-
+      <ToastContainer 
+      position="top-center"
+      />
     </div>
   );
 };

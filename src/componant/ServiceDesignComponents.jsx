@@ -15,7 +15,7 @@ const ServiceDesignComponents = ({ item }) => {
                 <div className="flex md:flex-row flex-col items-center gap-4 md:gap-16 px-5">
                     <div className="w-full md:w-[50%] mx-auto space-y-3" >
                         {
-                            imgUrl.map(({ height, url }) => <img key={height} className={`${height} mx-auto ${id === '1' ? 'w-fit' : 'w-full'}`} src={url} alt="" />)
+                            imgUrl.map(({ height, url }) => <img key={height} className={`${height} mx-auto rounded-2xl ${id === '1' ? 'w-fit' : 'w-full'}`} src={url} alt="" />)
                         }
                     </div>
                     <div className="w-full md:w-[50%] mx-auto space-y-6" >

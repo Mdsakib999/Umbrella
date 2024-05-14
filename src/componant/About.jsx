@@ -24,7 +24,7 @@ const About = () => {
 
       {/*  */}
 
-      <div className="flex flex-col justify-center items-center">
+      <div className=" bg-white flex flex-col justify-center items-center">
         <p className="font-medium lg:text-4xl text-2xl font-serif mt-16 mb-10 lg:w-[50%] w-[80%] text-center mx-auto ">
           WE ARE AN INDEPENDENT INSURANCE BROKER
         </p>

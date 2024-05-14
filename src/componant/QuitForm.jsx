@@ -1,5 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Form() {
 
@@ -9,9 +11,9 @@ function Form() {
     
     title: '',
     firstName: '',
+    middleName: '',
     lastName: '',
     dob: '',
-    referer: '',
     vehicleRegistration: '',
     address: '',
     maritalStatus: '',
@@ -24,6 +26,8 @@ function Form() {
     legalOwner: '',
     mileage: '',
     claimDiscount: '',
+    keptDay: '',
+    keptNight: '',
     licenseType: '',
     registeredKeeper: '',
     licensePassDate: '',
@@ -57,6 +61,7 @@ function Form() {
       .then(
         () => {
           console.log('SUCCESS!');
+          toast("Welcome to England Insure & Thank you for your interest. One of our colleague will contact you within 3-4 hours.");
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -67,9 +72,9 @@ function Form() {
     setFormData({
       title: '',
     firstName: '',
+    middleName: '',
     lastName: '',
     dob: '',
-    referer: '',
     vehicleRegistration: '',
     address: '',
     maritalStatus: '',
@@ -84,6 +89,8 @@ function Form() {
     claimDiscount: '',
     licenseType: '',
     registeredKeeper: '',
+    keptDay: '',
+    keptNight: '',
     licensePassDate: '',
     claims: '',
     penalties: '',
@@ -102,7 +109,7 @@ function Form() {
 
       <div>
           <label className="block">Title <span className='text-red-600 font-bold'>*</span></label>
-          <input required type="text" name="title" value={formData.title} onChange={handleChange} className=" lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
+          <input required type="text" name="title" value={formData.title} onChange={handleChange} className=" lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500 bg-white" />
         </div> 
         
         <div>
@@ -111,7 +118,12 @@ function Form() {
         </div> 
 
         <div>
-          <label className="block">Last Name <span className='text-red-600 font-bold'>*</span></label>
+          <label className="block">Middle Name <span className='text-red-600 font-bold'>*</span></label>
+          <input required type="text" name="middleName" value={formData.middleName} onChange={handleChange} className=" lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
+        </div> 
+
+        <div>
+          <label className="block">Surname <span className='text-red-600 font-bold'>*</span></label>
           <input type="text" name="lastName" value={formData.lastName} onChange={handleChange} className="lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
         </div>
 
@@ -122,45 +134,40 @@ function Form() {
 
         <div>
           <label required className="block">Date of Birth <span className='text-red-600 font-bold'>*</span></label>
-          <input type="text" name="dob" value={formData.dob} onChange={handleChange} className="mt-2 pb-2 border-b focus:outline-none " />
+          <input type="text" name="dob" value={formData.dob} onChange={handleChange} className="lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500 " />
         </div>
         <div>
-          <label className="block">Contact Number <span className='text-red-600 font-bold'>*</span></label>
-          <input required type="number" name="number" value={formData.number} onChange={handleChange} className="lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
+          <label className="block">Contact Number </label>
+          <input type="number" name="number" value={formData.number} onChange={handleChange} className="lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
         </div> 
 
         <div>
-          <label className="block">Email <span className='text-red-600 font-bold'>*</span></label>
-          <input required type="email" name="email" value={formData.email} onChange={handleChange} className="lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
+          <label className="block">Email </label>
+          <input type="email" name="email" value={formData.email} onChange={handleChange} className="lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
         </div>
 
         <div>
-          <label className="block">Occupation & industry :</label>
-          <input type="text" name="occupationIndustry" value={formData.occupationIndustry} onChange={handleChange} className="lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
-        </div>
-        
-        <div>
-          <label className="block">Name of Referer</label>
-          <input type="text" name="referer" value={formData.referer} onChange={handleChange} className="lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
+          <label className="block">Occupation & industry <span className='text-red-600 font-bold'>*</span></label>
+          <input required type="text" name="occupationIndustry" value={formData.occupationIndustry} onChange={handleChange} className="lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
         </div>
 
         <div>
-          <label className="block">Marital Status : <span className='text-red-600 font-bold'>*</span></label>
+          <label className="block">Marital Status <span className='text-red-600 font-bold'>*</span></label>
           <input required type="text" name="maritalStatus" value={formData.maritalStatus} onChange={handleChange} className="lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
         </div>
 
         <div>
-          <label className="block">Licence Type :  <span className='text-red-600 font-bold'>*</span></label>
+          <label className="block">Licence Type  <span className='text-red-600 font-bold'>*</span></label>
           <input required type="text" name="licenseType" value={formData.licenseType} onChange={handleChange} className="lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
         </div>
 
         <div>
-          <label className="block">Period Licence Held :<span className='text-red-600 font-bold'>*</span></label>
+          <label className="block">Period Licence Held <span className='text-red-600 font-bold'>*</span></label>
           <input required type="text" name="periodLicenceHeld" value={formData.periodLicenceHeld} onChange={handleChange} className="lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
         </div>
 
         <div>
-          <label className="block">Date licence obtained :<span className='text-red-600 font-bold'>*</span></label>
+          <label className="block">Date licence obtained <span className='text-red-600 font-bold'>*</span></label>
           <input required type="text" name="licensePassDate" value={formData.licensePassDate} onChange={handleChange} className="lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
         </div>
 
@@ -191,7 +198,7 @@ function Form() {
 
         
         <div>
-          <label className="block">When did you buy the car? <span className='text-red-600 font-bold'>*</span></label>
+          <label className="block">Vehicle Purchase Date <span className='text-red-600 font-bold'>*</span></label>
           <input required type="text" name="purchaseDate" value={formData.purchaseDate} onChange={handleChange} className="lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
         </div>
 
@@ -201,8 +208,13 @@ function Form() {
         </div>
 
         <div>
-          <label className="block">Who is the legal owner & keeper of the car? <span className='text-red-600 font-bold'>*</span></label>
-          <input required type="text" name="legalOwner" value={formData.legalOwner} onChange={handleChange} className="lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
+          <label className="block">Where is the vehicle kept during the day <span className='text-red-600 font-bold'>*</span></label>
+          <input required type="text" name="keptDay" value={formData.keptDay} onChange={handleChange} className="lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
+        </div>
+
+        <div>
+          <label className="block">Where is the vehicle kept during night <span className='text-red-600 font-bold'>*</span></label>
+          <input required type="text" name="keptNight" value={formData.keptNight} onChange={handleChange} className="lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
         </div>
 
         <div>
@@ -211,8 +223,18 @@ function Form() {
         </div>
 
         <div>
+          <label className="block">Who is the legal owner of the car? <span className='text-red-600 font-bold'>*</span></label>
+          <input required type="text" name="legalOwner" value={formData.legalOwner} onChange={handleChange} className="lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
+        </div>
+
+        <div>
           <label className="block">Estimated Annual Mileage <span className='text-red-600 font-bold'>*</span></label>
           <input required type="text" name="mileage" value={formData.mileage} onChange={handleChange} className="lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
+        </div>
+
+        <div>
+          <label className="block">Type of Cove <span className='text-red-600 font-bold'>*</span></label>
+          <input required type="text" name="coverType" value={formData.coverType} onChange={handleChange} className="lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
         </div>
 
         <div>
@@ -220,14 +242,9 @@ function Form() {
           <input type="text" name="claimDiscount" value={formData.claimDiscount} onChange={handleChange} className="lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
         </div>
 
-        <div>
-          <label className="block">What type of cover are you looking for?</label>
-          <input type="text" name="coverType" value={formData.coverType} onChange={handleChange} className="lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
-        </div>
-
 
         <div>
-          <label className="block">When would you like to start the policy? <span className='text-red-600 font-bold'>*</span></label>
+          <label className="block">When would you like your policy to start? <span className='text-red-600 font-bold'>*</span></label>
           <input required type="text" name="startDate" value={formData.startDate} onChange={handleChange} className="lg:w-[50%] py-1 border-b focus:outline-none focus:border-blue-500" />
         </div>
 
@@ -240,6 +257,9 @@ function Form() {
         
         <button type="submit" value="Send" className=" bg-red-600 hover:bg-red-700 px-5 py-3 rounded-md text-white font-medium shadow-md">Submit</button>
       </form>
+      <ToastContainer 
+      position="top-center"
+      />
     </div>
   );
 }

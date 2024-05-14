@@ -56,8 +56,8 @@ const Home = () => {
                 Get a Quote Now
               </Link>
               
-              <p className="rounded mt-8 lg:w-[30%] w-[70%] mx-auto lg:px-7  pb-[18px] pt-[18px] font-medium bg-red-600 hover:bg-red-700 cursor-pointer">
-                Give us a call- +448000584756
+              <p className="rounded mt-8 lg:w-[35%] w-[90%] mx-auto lg:px-7  pb-[18px] pt-[18px] font-medium bg-red-600 hover:bg-red-700 cursor-pointer">
+                Give us a call: +448000584756 (Toll Free)
               </p>
             </div>
           </div>
@@ -70,7 +70,7 @@ const Home = () => {
       <CustomerFeedback></CustomerFeedback>
 
       {/* home about */}
-      <div className=" lg:pb-20  pt-14 lg:flex justify-evenly items-center gap-8 px-10 lg:px-0">
+      <div className=" bg-white lg:pb-20  pt-14 lg:flex justify-evenly items-center gap-8 px-10 lg:px-0">
         <div className="lg:w-[40%]">
           <p>ABOUT US</p>
           <p className="text-4xl font-serif my-5">
@@ -118,7 +118,7 @@ const Home = () => {
               <h2 className="mb-4 lg:text-6xl text-3xl text-blue-600 font-semibold">
                 Why choose us?
               </h2>
-              <ol className="text-left mt-10 mb-12 text-xl font-semibold leading-10 px-8 lg:px-0">
+              <ol className="text-left mt-10 mb-12 lg:text-xl font-semibold leading-10 px-8 lg:px-0">
                 <li>
                   1. Specialized quotation team to search the best out of the
                   market

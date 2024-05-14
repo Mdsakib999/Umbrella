@@ -30,7 +30,7 @@ const Footer = () => {
         </p>
       </div>
       </div>
-      <div className=" py-10 lg:flex lg:justify-evenly items-center ">
+      <div className=" bg-white py-10 lg:flex lg:justify-evenly items-center ">
         <div className="">
           <ul className=" flex justify-center gap-6 px-1 font-medium text-lg mr-10 lg:mr-0">
             <li>
@@ -56,15 +56,14 @@ const Footer = () => {
           />
         </div>
 
-        <div className=" lg:w-[30%] flex flex-col items-center mr-8 lg:mr-0">
+        <div className=" lg:w-[30%] flex flex-col items-center  lg:mr-0">
           <img
-            className="w-[50%]"
+            className="w-[30%] mb-3"
             src="https://umbrellacover.co.uk/wp-content/uploads/2023/08/ico_CookieScript-300x125.png"
             alt="footer logo"
           />
-          <p>
-            England insure is registered with ICO (Information commissioners
-            office) and complaint with PCI DSS
+          <p className=" px-3 lg:px-0 text-center">
+          England insure is registered with ICO and complaint with PCI DSS regulations & Data protection laws. Information are end to end encrypted & will never be shared with any 3rd party agencies.
           </p>
         </div>
       </div>
