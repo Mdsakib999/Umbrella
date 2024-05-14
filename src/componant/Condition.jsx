@@ -4,9 +4,9 @@ import { Link, useLocation } from "react-router-dom";
 const Condition = () => {
   const { pathname } = useLocation();
 
-  useEffect(() => {
-    window.scroll(0, 0);
-  }, [pathname]);
+  // useEffect(() => {
+  //   window.scroll(0, 0);
+  // }, [pathname]);
 
   return (
     <div className="bg-zinc-100">
@@ -16,7 +16,7 @@ const Condition = () => {
       <div className="border-2 border-red-600 w-[15%] mx-auto mb-8"></div>
       <div className="lg:w-[75%] w-[90%] mx-auto">
         <p className="font-bold text-lg">
-        England Insure Trading Under Sort Services Ltd.
+        Best Insurance Trading Under  England Insure.
         </p>
         <p className="font-bold text-lg mt-4 mb-5">
           We Can Assist You With Finding Quotations For Van Insurance, Fleet
@@ -59,19 +59,19 @@ const Condition = () => {
           </p>
           <p>
             <span className="font-bold mr-2">1.5</span>
-            Sort Services Ltd is not the insurer but provides consultancy
+            England Insure is not the insurer but provides consultancy
             service and services of clerical nature.
           </p>
           <p>
             <span className="font-bold mr-2">1.6</span>
-            Sort Services Ltd does not give any advice or make any personal
+            England Insure does not give any advice or make any personal
             recommendations as to the suitability of any policy to individual or
             business client’s circumstances. We may describe policy features,
             but it is the client’s decision to buy.
           </p>
           <p>
             <span className="font-bold mr-2">1.7</span>
-            Sort Services Ltd is an independent price searching company (not
+            England Insure is an independent price searching company (not
             associated with any insurer or underwriter), a 3rd Party who works
             on customer’s behalf only up to searching the quotations.
           </p>
@@ -117,10 +117,55 @@ const Condition = () => {
           </p>
           <p>
             <span className="font-bold mr-2">3.2 No Advice</span>
-            Sort Services Ltd does not offer financial, investment or other
+            England Insure does not offer financial, investment or other
             advice. Nothing on this Website constitutes financial, investment or
             other advice by us in relation to any product.
           </p>
+
+          <p>
+            <span className="font-bold mr-2">A</span>
+            Accepting deposits or arranging cover <br />
+Under Section 19 of FSMA provides that a person may not carry on a regulated activity in the UK unless he is authorised or exempt. The ''Regulated Activities'' are specified in the FSMA Act 2000, Order 2001(RAO) - FCA Handbook
+          </p>
+          <p>
+            <span className="font-bold mr-2">B</span>
+            Effecting or carrying out contracts of insurance as principal.
+          </p>
+
+          
+
+          <p>
+            <span className="font-bold mr-2">
+            3.3 No Advice
+            </span>
+            Sort Services Ltd does not offer financial, investment or other advice. Nothing on this Website constitutes financial, investment or other advice by us in relation to any product.
+          </p>
+
+          <p>
+            <span className="font-bold mr-2">
+            3.4
+            </span>
+            In terms of any other financial services our activities do not include the following- <br />
+            Issuing e-money <br />
+            dealing in investments <br />
+            arranging deals in investments <br />
+            operating a multilateral trading facility <br />
+            managing investments <br />
+            safeguarding and administering investments <br />
+            establishing collective investment schemes <br />
+            establishing stakeholder pension schemes <br />
+            providing basic advice on stakeholder products <br />
+            advising on investments <br />
+            advising on home finance activities <br />
+            Lloyd's market activities <br />
+            entering funeral plan contracts <br />
+            entering into a home finance activity <br />
+            administering a home finance activity <br />
+            entering into a home finance activity <br />
+            administering a home finance activity
+             <br />
+          </p>
+
           <p>
             <span className="font-bold mr-2">
               3.7 FSMA Regulatory and PCI DSS Compliance Information:
@@ -181,6 +226,10 @@ const Condition = () => {
             provider’s terms and conditions. You will receive written
             confirmation if your offer has been accepted.
           </p>
+          <p>
+            <span className="font-bold mr-2">4.6</span>
+            Our website may contain hyperlinks to other websites as part of our service. Links are provided for convenience only and inclusion of any links should not be taken to imply ratification of the third party website. These websites are owned and operated by third parties and therefore we accept no liability for any statements, information, products or services that are published on or may be accessible through them.
+          </p>
         </div>
 
         <div>
@@ -227,7 +276,16 @@ const Condition = () => {
 
         <div>
           <p className="text-lg font-semibold mt-4">
-            7.The Sort Services Ltd service and how we are paid
+          6. Use of the website
+          </p>
+          <p className="pb-10">
+          By using this website you agree that you will not do anything that affects the reliability or security of the website or causes unreasonable inconvenience to other users or ourselves. You are only permitted to use our website for personal use and if you are a UK resident. Unauthorised use includes commercial use, which is strictly prohibited and we reserve the rights to take further action such as legal action.
+          </p>
+        </div>
+
+        <div>
+          <p className="text-lg font-semibold mt-4">
+            7.The England Insure service and how we are paid
           </p>
           <p>
             <span className="font-bold mr-2">7.1</span>
@@ -247,7 +305,7 @@ const Condition = () => {
             provides any unfair terms the following terms and conditions are
             applicable for all customers (specially who consumes Quote service):
             if you agree with insurer’s/broker’s terms and conditions as stated
-            on their website. You pay Sort Services Ltd a separate service fee
+            on their website. You pay England Insure a separate service fee
             for price searching work. If the insurer accepts the payment from
             your bank card, this fee is non-refundable. We do not take any
             commission from the insurer and our services are limited to price
@@ -262,7 +320,7 @@ const Condition = () => {
             any unfair terms to cancel your policy, depending on the time of
             cover we may deduct only £50 of the service charge you have paid us
             and refund you the rest although according to our full terms we are
-            not obliged to do this. Sort Services Ltd is a service providing
+            not obliged to do this. England Insure is a service providing
             company, not the insurer or broker. In terms of legality and data
             accuracy any information entered on the insurer’s website has been
             recorded and insurer/broker sends you this via email link or post.
@@ -279,7 +337,7 @@ const Condition = () => {
             or authorising us to carry out price searching work on your behalf
             to find you quotation or renewal comparison from the available
             market (based on the accuracy of the information you have submitted
-            to us). Sort Services Ltd does not make any personal recommendations
+            to us). England Insure does not make any personal recommendations
             or suggestions or give any financial advice to the suitability of
             any products to our clients (yourself) as we are not FCA regulated.
           </p>
@@ -303,161 +361,302 @@ const Condition = () => {
           </p>
         </div>
 
+       
+
         <div>
           <p className="text-lg font-semibold mt-4">
-            7. How secure is the information I give to you?
+          8. Permitted use
           </p>
           <p>
-            Your personal and sensitive data are covered by the Data Protection
-            Act & GDPR 2018.The payment site services enhanced encryption
-            techniques, which ensures that all of your confidential data (such
-            as credit card number, name, address and other information) cannot
-            be intercepted, unscrambled, copied or seized when being transmitted
-            from yourself to our server.
+            <span className="font-bold mr-2">8.1</span>
+            You are only permitted to use this Website for personal use, subject to your compliance with these Terms of Use. Commercial use of this Website is strictly prohibited
+          </p>
+          <p>
+            <span className="font-bold mr-2">8.2</span>
+            You are not permitted to do anything that may affect the security of this Website or any information or material stored within it.
+          </p>
+          <p>
+            <span className="font-bold mr-2">8.3</span>
+            You agree not to: (A) use any automated tool (such as a spider, robot or aggregation tool) to access, copy or extract such information; (B) copy or disclose to any person, any Website content, other than as expressly permitted by these Terms of Use; (C) use any method or process (including data scraping, collection or accumulation tool, robot, spider or scripted responses) for the purpose of obtaining, processing, copying, replicating, distributing, reconfiguring, republishing, viewing, assessing, analysing, modifying or repackaging any Website content; (D) use any method or process to consolidate or combine any Website content with any other content, data, information, images or material; (E) reverse engineer, disassemble or otherwise attempt to construct or identify this Website’s source code, formulas or processes; (F) use systematic, repetitive or any other methods which are designed to obtain a large number of quotes, comparisons, rankings or other pricing and related information from this Website; (G) use, obtain or attempt to obtain from this Website, information in order to identify or discover pricing, underwriting, rating and related business methodology or systems; or (H) post, distribute or send any ‘spamming material’ or any other form of bulk communication.
+
+          </p>
+          <p>
+            <span className="font-bold mr-2">8.4</span>
+            You are not permitted to use this Website in any unlawful or fraudulent manner.
+          </p>
+          <p>
+            <span className="font-bold mr-2">8.5</span>
+            You agree that if you provide any information on this Website, that information will be true, accurate and complete.
+          </p>
+          <p>
+            <span className="font-bold mr-2">8.6</span>
+            This Website is intended to be used for quotation search, but Sort Services Ltd is not able to bind any third-party provider or ensure that any third-party provider sells any product to you. Accordingly, nothing on this Website amounts to an offer by us or any third-party provider to: (a) sell any product to you; or (b) enter into any contract with you.
+
           </p>
         </div>
 
         <div>
-          <p className="text-lg font-semibold mt-4">
-            8. Your electronic information
+          <p className="text-lg font-semibold mt-4">9. Intellectual property rights</p>
+          <p>
+            <span className="font-bold mr-2">9.1</span>
+            The word or mark “Sort Services Ltd” however represented, all associated logos and symbols, and any combinations with another word or mark, are the trademarks of Sort Services Ltd or one of its group companies.
           </p>
           <p>
-            If you choose to communicate with us electronically, we may collect
-            your electronic identifier e.g. Internet Protocol (IP) address or
-            telephone number supplied by your service provider.
+            <span className="font-bold mr-2">9.2</span>
+            All intellectual property rights in any material or content contained in or accessible via this Website is either owned by Sort Services Ltd or has been licensed to us for use by us.
           </p>
-        </div>
-
-        <div>
-          <p className="text-lg font-semibold mt-4">9. E-mail Links</p>
           <p>
-            On our website we may use e-mail links as a source of communication
-            to contact you directly. We use the information provided in your
-            e-mail to respond to your questions or comments. We may also store
-            your comments for future reference and to help improve our service
-            were possible.
+            <span className="font-bold mr-2">9.3</span>
+            You will only make fair use of the trademarks on this Website and will not use them: (A) as part of your own marks; (B) in a manner which is likely to cause confusion or damage to the reputation of Sort Services Ltd; or (C) to identify or imply endorsement or otherwise of products or services to which they do not relate.
+          </p>
+          <p>
+            <span className="font-bold mr-2">9.4</span>
+            Except as set out elsewhere in these Terms of Use, none of the intellectual property rights belonging to Sort Services Ltd or our licensors in and relating to this Website (including any content or material displayed on this Website) may be used, copied, published or distributed by you without our prior written consent.
           </p>
         </div>
 
         <div>
           <p className="text-lg font-semibold mt-4">10. Web Links</p>
           <p>
-            Our website may contain web links to other third party websites. If
-            you click on any one of these web links, you will be entering
-            another site for a third party company. We are not responsible for
-            third party websites and by entering these websites our Terms and
-            condition and privacy policy will not be valid on their sites. It is
-            your responsibility to read the privacy statements of these linked
-            sites and their terms and conditions as they may substantially
-            differ from ours.
+            <span className="font-bold mr-2">10.1</span>
+            This Website, content and services are supplied to you on a strictly “as is” basis and we make no warranties, express or implied, regarding their satisfactory quality, fitness for a particular purpose, reliability, timeliness, accuracy, completeness, security or that they are free from error.
+          </p>
+          <p>
+            <span className="font-bold mr-2">10.2</span>
+            We try to ensure that the information displayed on this Website is accurate, however your access to this Website and any action you carry out on the basis of information you obtain from this Website is carried out entirely at your own risk and we accept no liability for any losses that you may suffer as a result.
+          </p>
+          <p>
+            <span className="font-bold mr-2">10.3</span>
+            We do not give any warranty that the Website is free from viruses or anything else which may have a harmful effect on any technology.
+          </p>
+          <p>
+            <span className="font-bold mr-2">10.4</span>
+            We aim to provide uninterrupted access to this Website but we give no warranty as to the uninterrupted availability of this Website. We reserve the right to suspend, restrict or terminate your access to this Website at any time.
+          </p>
+          <p>
+            <span className="font-bold mr-2">10.5</span>
+            We will not be liable for any loss of use, profits or data or any indirect, special or consequential damages or losses, whether such losses or damages arise in contract, negligence or tort, or otherwise in relation to: (A) your use of, reliance upon or inability to use this Website or content; (B) the deletion with or without notice or cause of any of your data or information stored on this Website; (C) any loss of your content or communications resulting from delays, non-deliveries, missed deliveries, service interruptions or a failure, suspension or withdrawal of all or part of this Website at any time; (D) the removal from this Website of any content or communications sent or posted by you on or via this Website; (E) any circumstance that is outside of our reasonable control; and (F) any loss or damage that is not directly caused by us or which we could not reasonably expect at the time we entered into our agreement with you.
+          </p>
+          <p>
+            <span className="font-bold mr-2">10.6</span>
+            Nothing in these Terms of Use is intended to exclude or limit our liability for death or personal injury, our fraud or any other liability which we may not by law exclude or limit.
           </p>
         </div>
 
         <div>
           <p className="text-lg font-semibold mt-4">
-            11. Use of the website communication alertness
+          11. Indemnity
           </p>
           <p>
-            You agree that your use of our website will not affect the integrity
-            or security of the website or cause unreasonable inconvenience to
-            our company. Please be aware that communications over the internet,
-            such as emails are not secure unless they have been encrypted. If
-            you decide to correspond using this method then it is important that
-            you are made aware that any memorandum or information may route
-            through a number of countries before being delivered to us as this
-            is the nature of the World Wide Web/Internet. We cannot accept
-            responsibility for any unauthorised access or loss of personal
-            information that is beyond our control, which you have communicated
-            to us via this method without appropriate encryption.
+          You agree to indemnify us, our directors, employees, agents, and contractors for any loss suffered, or any costs that may be incurred arising from your breach of these Terms of Use or your use of this Website.
           </p>
         </div>
 
         <div>
-          <p className="text-lg font-semibold mt-4">12. Anti-Spam Policy</p>
+          <p className="text-lg font-semibold mt-4">12. Financial Services Compensation Scheme (FSCS)</p>
           <p>
-            Spam is unsolicited e-mail, often of a commercial nature and sent
-            indiscriminately to multiple mailing lists, individuals, or news
-            groups. Spam is commonly known as "junk e-mail." As defined by H.R.
-            3113 and reported by the Subcommittee on Telecommunications, Trade,
-            and Consumer Protection, unsolicited e-mail refers to any electronic
-            message that advertises a product or service for profit is sent for
-            other commercial purposes is sent to a recipient with whom the
-            originator does not have an existing business relationship with. The
-            originator can also invite the recipient to the transmission
-            contains forged headers, invalid or non-existent domain name or
-            other means of deceptive addressing. Also in the opinion of the
-            recipient the transmission and reception of the message appears to
-            give an unreliable benefit to the sender, then we identify this as
-            spam.
+          Your insurer or service provider would normally be covered by Financial Services Compensation Scheme (FSCS). You may be entitled to the scheme if your insurer can not meet their obligations. Any amount paid to your insurer would be covered by FSCS; this depends on the type of business and the circumstances of the claim. 
           </p>
         </div>
 
         <div>
-          <p className="text-lg font-semibold mt-4">13. Use of Cookies</p>
+          <p className="text-lg font-semibold mt-4">13. Definition of Quotes</p>
           <p>
-            {" "}
-            A cookie identifies your computer to a server which enables
-            information to be stored on the hard drive of your computer. Cookies
-            allow a computer to be identified as indistinguishable to one that
-            has accessed another website or visited a site previously. Cookies
-            do not harm your computer system and is widely used. Every so often
-            we may use and serve cookies, action tags or pixel tags. Any
-            information that is collected via cookies, actions and pixel tags is
-            completely anonymous. We use cookies, action tags or pixel tags for
-            various purposes such as collating anonymous aggregated information
-            that is used to manage and plan enhancements to our services. Also
-            to assess the effectiveness of our promotional marketing on third
-            party website, as we are continually looking to improve and
-            implement certain practices and technologies in order that we may
-            improve your service experience.
+          Although we can not tailor or trim any information unless your circumstances changes and with the service that we provide we do not act as a broker, agent or third party for any particular insurer at any one time, although we work as an independent Price Searcher. We have provided you with links to comparison websites, and other various companies, to find you the best possible deals. In any case if would like us to manually fill out any form on your behalf according to your individual specification and circumstances, we can work on finding you quotes, as long as you authorise us and provide us with accurate information. With the given information we will manually search into a variety of prospects to find covers. Usually this is a more challenging premium which in turn will save you money and time. We cannot make any alterations to the quotes / policy. The quotes do not include any charges from insurer or broker that may arise later on if you instruct any amendment or alteration to the policy after setting up. Such amendments might be a change of car or change of address for example. When we provide you with quotes we always process your data and payment information according to the Data Protection Act & GDPR 2018.
           </p>
         </div>
 
         <div>
           <p className="text-lg font-semibold mt-4">
-            14. How can I stop cookies and what effect will this have?
+          14. Price delivery
           </p>
           <p>
-            To stop cookies from being installed on your computer you can
-            configure your browser not to accept them or opt-out. Please refer
-            to your browser's 'help' facility for guidance on how to do this. If
-            cookies are already on your system, you can delete them - For
-            further information on cookies please visit:{" "}
-            <Link
-              className="text-blue-600"
-              to="allaboutcookies.org/manage-cookies/.Please"
-            >
-              http://www.allaboutcookies.org/manage-cookies/.Please
-            </Link>{" "}
-            be aware that deleting certain cookies may bring difficulties when
-            traversing around sites.
+          Predominantly, you will receive quotes within maximum 8 business hours by text (sms) to the mobile number or the email you had given us. You will then be contacted by a telephone call to discuss your quote further; this will give you the opportunity to learn more about the policy features and give you the chance to make any queries that you may have about the quotes. The price we deliver is completely reliant on the availability of the third party sites and on the overall performance of the World Wide Web. We might not be able to provide quotes to you in certain circumstances. You will be advised accordingly if this is the case. We will contact you via telephone, SMS or email when a quote is ready for you.
+
+ 
           </p>
         </div>
 
         <div>
-          <p className="text-lg font-semibold mt-4">15. Legal Disclaimer</p>
+          <p className="text-lg font-semibold mt-4">15. Your obligations</p>
           <p>
-            The Government, Regulatory body or Law Agencies have the right to
-            contact us to disclose personal information that we hold on you. In
-            such circumstances in order to comply by law and with legal
-            processes we will have to disclose the required information in good
-            faith (and by law) that such action is necessary.
+          It is your responsibility to answer all questions on the relevant form to the best of your knowledge and authenticity. If you are not sure of any answers, then you should disclose any information you think might be important. If the answers are incorrect, your application may be rejected or additional premiums could be payable, which the insurer reserves the right to collect. Upon purchasing a policy it is your responsibility to check and if necessary amend any details with any broker or insurer who you decide to purchase your policy from. If you fail to do this, this may invalidate the policy. It is solely your responsibility to read the Terms and Conditions of your product that you are purchasing from your service provider. The details should be accessible to you via the third party web link. It is important you understand the Terms and Conditions agreed with us only relate to this website.
           </p>
         </div>
+
         <div>
           <p className="text-lg font-semibold mt-4">
-            16. Termination of Your Rights
+          16. Terms of risk
           </p>
           <p className="pb-10">
-            Sort Price Searcher' part of England Insure Ltd have right to issue a
-            warning, temporary suspension, or an indefinite suspension and
-            termination of your rights to use our website If you inconsistently
-            are in breach of our terms and conditions. Also if you violate or
-            attempt to violate any rights of any other user(s) of this website
-            or third parties. Termination will also take place if you are
-            engaged in any fraudulent activity.
+          All providers specialise in dealing with different levels of risks and they do not quote on risks that fall outside their target customers. The more "high risk" or "non-standard" your risk is categorised by them, the fewer quotes you will receive. At times it might not be possible for you obtain a quote at all over the internet.
           </p>
         </div>
+
+        <div>
+          <p className="text-lg font-semibold mt-4">
+            17. Claims & Underwriting Exchange Register
+          </p>
+          <p className="pb-10">
+          Insurers pass information to the Claims and Underwriting Exchange Register run by Database Services Limited (IDS Ltd), the Hunter Database run by MCL Software Ltd and the Motor Insuring Anti-Fraud and Theft Register run by the Association of British Insurers (ABI) to help the insurer check the information provided and also to prevent fraudulent claims. When application for cover is submitted the insurer dealing with your request for Insuring may search these Registers and any other relevant registers. Under the terms and conditions of your policy, you must tell the insurer about any incident (such as an accident or theft) regardless of blame and whether a claim has been made or not. When you tell the insurer about an incident, the insurer will pass this information to the Registers and to any other relevant agents/bodies.
+          </p>
+        </div>
+
+        <div>
+          <p className="text-lg font-semibold mt-4">
+            18. Motor Insuring Database
+          </p>
+          <p className="pb-10">
+          Your motor Insuring policy details will be added to the Motor Insuring Database (MID) run by the Motor Insurers' Information Centre (MIIC). This can sometimes take up to 7 days to get your policy details updated on the MID. You can also check information about your own vehicle at www.askmid.com. MID data may be used by the DVLA and DVLNI for the purpose of Electronic Vehicle Licensing. Police may also use MID data for the purposes of investigating whether a driver's use of the vehicle is likely to be covered by a motor Insuring policy and/or for preventing and detecting crime. If you are involved in an accident (in the UK or abroad) other UK insurers, the Motor Insurers' Bureau and MIIC may search the MID to obtain relevant car Insuring policy information. Persons pursuing a claim in respect of a road traffic accident (including citizens of other countries) may also obtain relevant information which is held on the MID.
+          </p>
+        </div>
+
+        <div>
+          <p className="text-lg font-semibold mt-4">
+          19. Events of accidents and Claims and Underwriting Exchange (CUE)
+          </p>
+          <p className="pb-10">
+          Any driver/policy holder who has had any accidents (fault or non-fault) or claims (whether claim made or not, or just notified) in the last 5 years must disclose this information at application stage. Failing to do so could invalidate your policy, where cancellation fees may apply. You also have the risk of your current premium increasing. Insurers or brokers have accessibility to check with CUE for the history of any accidents or claims recorded within the CUE database. The Claims and Underwriting Exchange (CUE) is a central database of motor, home and personal injury/industrial illness incidents reported to companies, which may or may not affect your application/policy.
+          </p>
+        </div>
+
+        <div>
+          <p className="text-lg font-semibold mt-4">
+          20. Motor convictions, fixed penalty or disqualification and Driver and Vehicle Licensing Agency (DVLA)
+          </p>
+          <p className="pb-10">
+          Any driver who has had any motor convictions, fixed penalties or disqualifications in the last 5 years must disclose this information at application stage. Failing to do so could invalidate your policy, where cancellation fees may apply. You also have the risk of your current premium increasing. Insurers or brokers may also check with DVLA for the history of any motor convictions, fixed penalties or disqualifications recorded within the DVLA database. The Driver and Vehicle Licensing Agency (DVLA) is the organisation of the UK Government responsible for maintaining a database of drivers and a database of vehicles in Great Britain.
+          </p>
+        </div>
+
+        <div>
+          <p className="text-lg font-semibold mt-4">
+          21. No claims bonus (NCB) / No claims discount (NCD)
+          </p>
+          <p className="pb-10">
+          Proof of No Claims Bonus (NCB) may be required if you take out a policy were a NCB has been applied. It is solely your responsibility to provide the proof of NCB. This proof should be either a renewal notice or letter from your previous cover provider, which shows the main driver as the policy holder (yourself) and the NCB declaration. A policy schedule is not the correct form of proof and may be rejected. The NCB can only be used on one policy at a time, and must have been used on a policy within the last 24 months.
+          </p>
+        </div>
+
+        <div>
+          <p className="text-lg font-semibold mt-4">
+          21. No claims bonus (NCB) / No claims discount (NCD)
+          </p>
+          <p className="pb-10">
+          Proof of No Claims Bonus (NCB) may be required if you take out a policy were a NCB has been applied. It is solely your responsibility to provide the proof of NCB. This proof should be either a renewal notice or letter from your previous cover provider, which shows the main driver as the policy holder (yourself) and the NCB declaration. A policy schedule is not the correct form of proof and may be rejected. The NCB can only be used on one policy at a time, and must have been used on a policy within the last 24 months.
+          </p>
+        </div>
+
+        <div>
+          <p className="text-lg font-semibold mt-4">
+          22. UK residents only
+          </p>
+          <p className="pb-10">
+          The products and services described on this website are only available to residents of the United Kingdom insuring within Great Britain, Northern Ireland and the Isle of Man (excluding the Channel Islands). By using our services, you confirm that all applicants on your policy are UK residents only. If any of the policy holders have a change to residential status then it is your responsibility to immediately notify the cover provider.
+          </p>
+        </div>
+
+        <div>
+          <p className="text-lg font-semibold mt-4">
+          23. Intellectual property
+          </p>
+          <p className="pb-10">
+          The copyright material contained in this website and any brands and trademarks included belongs to us or our licensors. You may download, copy or store the content and other downloadable items displayed on the website subject to the condition that the material may only be used for personal purposes. Copying or storing the contents of the website for commercial use is highly prohibited. You must not use such information or copyright material unless you have obtained written permission from us or the owner to do so.
+          </p>
+        </div>
+
+        <div>
+          <p className="text-lg font-semibold mt-4">
+          24. Responsibility for content
+          </p>
+          <p className="pb-10">
+          The Information provided on this website is on an "as is" either end basis and make no representations or warranties of any kind in respect of the contents and disclaim all such representations and warranties. Furthermore, we make no representations or warranties about the completeness, suitability, or accuracy for any purpose of the information and related graphics published in this website. The information contained in this site may contain technical inaccuracies or typographical errors. Howsoever, all our liability arising for any such errors or inaccuracies is expressly excluded to the fullest extent permitted by law. We make no warranty that the website or any linked website is free from viruses, mal ware or other malicious computer problems. You are responsible for ensuring that you use the appropriate Antivirus software. Neither we nor any of our employees or other representatives will be liable for loss or damage arising out of or in connection with the use of this site. This is an inclusive limitation of liability that applies to all damages of any kind, including (without limitation) compensatory, direct, indirect or consequential damages, loss of or damage of property, loss of income, profit or data in claims of third parties. None of the exclusions and limitations under the clause are intended to limit any rights You may have as a consumer under local law or other statutory rights which may not be excluded or in any way to exclude or limit our liability to you for death or personal injury resulting from our negligence or that of our employees or agents.
+          </p>
+        </div>
+
+        <div>
+          <p className="text-lg font-semibold mt-4">
+          25. What will you have to pay us for our services?
+          </p>
+          <p className="pb-10">
+          Details of any fees or charges for amendments related to your policy can be found in your policy documentation from your insurer. Any such fees are payable directly to your cover provider. Any other fees will be discussed or advised of before proceeding with the policy. We provide the non-obligatory quotes for free however, if you decide to go ahead further by using the quotations or its reference, then you will be liable for a separate service charge. When we provide you with quotes our variable service charge is always included with it and you pay us this service charges after you happily sorted out your needs with your provider. However, you will be paying us for searching the quotes for you. If you give us any false or inaccurate information, it may result in cancellation of your policy and our service charge will not be refunded. We do not share the service charge with any of your product or service provider also this is not linked with your policy. However, if you are not satisfied with our standard service or due to any sorts of error (including clerical & typing) you suffered from any inconveniances, we re-imburse the difference or in some cases we refund the full amount of our service charges (subject to eligibility).
+          </p>
+        </div>
+
+        <div>
+          <p className="text-lg font-semibold mt-4">
+          26. Indication and level of our administration and service charges
+          </p>
+          <p className="pb-10">
+          It is a requirement from Trading Standards that we make you aware of our level of charges therefore, the quotes you receive by SMS or email it reflects with the following text- (Included All Charges) with the total prices. Our service charges are calculated on an hourly charge basis, Senior Service Providing Officer or Management per hour on a time basis of £200 for work done and £150 per hour for all other fee earners. Administrative charges include all letters and e-mails sent out by us and all telephone calls made and received by us will be charged at £25 and £20. If all or part of any bill rendered by this company remains unpaid we may be able to charge interest and our charges are subject to annual review.
+          </p>
+        </div>
+
+        <div>
+          <p className="text-lg font-semibold mt-4">
+          27. Complaints procedure
+          </p>
+          <p className="pb-10">
+          If you have a complaint about our service or your policy, please contact us first by phone and if after talking to us you are still not happy please write to our Service Quality & Assessment Manager at the address shown below. If you prefer to communicate via email or fax we are happy to correspond with you using these methods as well. You may contact us on 0330 113 2448 between 9am to 5pm Monday to Friday, not including Bank Holidays. We will attempt to resolve your complaint within 48 hours. If this does not happen we will discuss the next step with you. If you wish to write please address your letter to: Complaints Dept Of Sort Services Ltd. Please include details of your name and address, a contact telephone number, your policy or quote number and details of why you are unhappy. If there is insufficient information then we contact you either via telephone or email to ask for further information. Depending on the nature of the complaint it may take up to two weeks for a resolution. During this time you may receive a final response or a letter explaining why we are not yet in a position to resolve your complaint and when we will be contacting you again and if it is found that, due to any sorts of error made from our end (including clerical & typing) you have suffered from any inconveniances, we re-imburse the difference or we refund the full amount of our service charges (subject to eligibility).
+          </p>
+        </div>
+
+        <div>
+          <p className="text-lg font-semibold mt-4">
+          28. Fraud
+          </p>
+          <p className="pb-10">
+          It is fraudulent if you or anyone acting on your behalf misrepresents or deliberately fails to disclose information or facts at any time whether at application stage or during the term of the policy or at renewal of the policy that would materially impact either the terms and conditions or the issue or renewal decision itself. This also includes were the insurer has been provided with any information or documents which misrepresents or conceals the truth or are stolen. If fraud is suspected then the insurers have the right to cancel or void your policy and any other related policies at any time. The insurers may seek to recover any costs they have incurred and may not return any premium.
+          </p>
+        </div>
+
+        <div>
+          <p className="text-lg font-semibold mt-4">
+          29. Termination
+          </p>
+          <p className="pb-2">
+          We have in our sole discretion the right to issue a warning, temporary suspension, or an indefinite suspension and termination of Your rights to use the website if you:
+          </p>
+          <p>
+            <span className="font-semibold mr-2">29.1</span>
+            Breach these terms and conditions and act inconsistently.
+          </p>
+          <p>
+            <span className="font-semibold mr-2">29.2</span>
+            At any time violate or attempt to violate any rights of other user of the website or third parties.
+          </p>
+          <p>
+            <span className="font-semibold mr-2">29.3</span>
+            Are involved in any fraudulent activity.
+          </p>
+          <p>
+            <span className="font-semibold mr-2">29.4</span>
+            Threaten or abuse employees of Sort Services Ltd either verbally, physically or in any other form.
+          </p>
+          <p>
+            <span className="font-semibold mr-2">29.5</span>
+            We reserve the right to refuse any price search works / quotations within our discretion.
+          </p>
+        </div>
+
+        <div>
+          <p className="text-lg font-semibold mt-4">
+          30. Governing law
+          </p>
+          <p className="pb-2">
+          We have in our sole discretion the right to issue a warning, temporary suspension, or an indefinite suspension and termination of Your rights to use the website if you:
+          </p>
+          <p>
+            <span className="font-bold mr-2">30.1</span>
+            These Terms of Use and your access to and use of this Website is governed by and will be interpreted in accordance with the laws of the UK.
+          </p>
+          <p className="pb-16">
+            <span className="font-bold mr-2 pb-12 ">30.2</span>
+            Each of you and us submits to the non-exclusive jurisdiction of the courts of the UK in connection with these Terms of Use and your access to and use of this Website.
+          </p>
+          
+        </div>
+
       </div>
     </div>
   );

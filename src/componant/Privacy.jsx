@@ -19,10 +19,10 @@ const Privacy = () => {
         <div>
           <p className="text-lg font-semibold">1. Data Controller</p>
           <p>
-            The data controller is Sort Services Ltd - we are registered under
+            The data controller is England Insure - we are registered under
             the Data Protection Act & GDPR 2018 we have given all appropriate
             notifications to the Information Commissioner. In this Privacy
-            Policy the terms "We", "Us" and "Our" refers to Sort Services Ltd
+            Policy the terms "We", "Us" and "Our" refers to England Insure
             and "You" and "Your" refers to the individual(s) who wishes to use
             the website.
           </p>
@@ -45,7 +45,7 @@ const Privacy = () => {
             confirm the change of data with you. You are also entitled to ask us
             to remove personal information from our records. If you wish to do
             these please write to the Data Protection Officer on
-            Info@sortinsurance.com. For data protection and security purposes
+            Info@englandinsure.com. For data protection and security purposes
             please provide your full name, address and date of birth when
             contacting us. We reserve the right to amend or modify our privacy
             policy at any time in response to changes in permissible data
@@ -95,7 +95,7 @@ const Privacy = () => {
             5. Market Research and Marketing
           </p>
           <p>
-            Sort Price Searcher, part of the Sort Services Ltd, may use your
+          England Insure Price Searcher, part of the England Insure, may use your
             information to keep you updated by post, telephone, email or other
             means of products and services which may be of interest to you. We
             may also contact you to conduct further market research. We may
@@ -237,17 +237,7 @@ const Privacy = () => {
           <p>
             To stop cookies from being installed on your computer you can
             configure your browser not to accept them or opt-out. Please refer
-            to your browser's 'help' facility for guidance on how to do this. If
-            cookies are already on your system, you can delete them - For
-            further information on cookies please visit:{" "}
-            <Link
-              className="text-blue-600"
-              to="allaboutcookies.org/manage-cookies/.Please"
-            >
-              http://www.allaboutcookies.org/manage-cookies/.Please
-            </Link>{" "}
-            be aware that deleting certain cookies may bring difficulties when
-            traversing around sites.
+            to your browser's 'help' facility for guidance on how to do this. 
           </p>
         </div>
 
@@ -266,7 +256,7 @@ const Privacy = () => {
             16. Termination of Your Rights
           </p>
           <p className="pb-10">
-            Sort Price Searcher' part of Sort Services Ltd have right to issue a
+          England Insure Price Searcher' part of England Insure have right to issue a
             warning, temporary suspension, or an indefinite suspension and
             termination of your rights to use our website If you inconsistently
             are in breach of our terms and conditions. Also if you violate or
