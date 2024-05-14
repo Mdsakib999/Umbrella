@@ -107,7 +107,7 @@ const Services = () => {
                         ))}
                     </div>
                     <div className='mt-8 flex flex-col justify-center items-center gap-6'>
-                        <Link to="/quit" className='bg-red-600 hover:bg-red-700 text-white rounded-md transition-all duration-200 px-11 py-4'>Get a Quote Now</Link>
+                        <Link to="/quote" className='bg-red-600 hover:bg-red-700 text-white rounded-md transition-all duration-200 px-11 py-4'>Get a Quote Now</Link>
                         <button className='bg-red-600 hover:bg-red-700 text-white rounded-md transition-all duration-200 px-11 py-6 md:text-2xl uppercase  '>Call us toll free: +448000584756 (Toll Free)</button>
                     </div>
                 </div>

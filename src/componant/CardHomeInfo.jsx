@@ -28,7 +28,7 @@ const CardHomeInfo = () => {
               </p>
 
               <div className="card-actions justify-center mt-4">
-                <Link className="bg-red-600 px-4 py-2 rounded-md text-white font-medium shadow-md" to="/quit">
+                <Link className="bg-red-600 px-4 py-2 rounded-md text-white font-medium shadow-md" to="/quote">
                   Get a Quote
                 </Link>
               </div>
@@ -50,7 +50,7 @@ const CardHomeInfo = () => {
               </p>
 
               <div className="card-actions justify-center mt-4">
-                <Link className="bg-red-600 px-4 py-2 rounded-md text-white font-medium shadow-md" to="/quit">
+                <Link className="bg-red-600 px-4 py-2 rounded-md text-white font-medium shadow-md" to="/quote">
                   Get a Quote
                 </Link>
               </div>
@@ -72,7 +72,7 @@ const CardHomeInfo = () => {
                 delivery/Courier, but we do the exception!
               </p>
               <div className="card-actions justify-center mt-4">
-                <Link className="bg-red-600 px-4 py-2 rounded-md text-white font-medium shadow-md" to="/quit">
+                <Link className="bg-red-600 px-4 py-2 rounded-md text-white font-medium shadow-md" to="/quote">
                   Get a Quote
                 </Link>
               </div>

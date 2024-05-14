@@ -370,7 +370,7 @@ const Home = () => {
                 cheapest quote
               </p>
               <Link
-                to="/quit"
+                to="/quote"
                 type="button"
                 className="rounded px-7 pb-[10px] pt-[10px] font-medium bg-red-600 hover:bg-red-700"
               >

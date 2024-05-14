@@ -30,7 +30,7 @@ export const router = createBrowserRouter([
                 
             },
             {
-                path: "/quit",
+                path: "/quote",
                 element: <QuitForm></QuitForm>,
                 
             },

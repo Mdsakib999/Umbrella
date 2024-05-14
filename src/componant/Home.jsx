@@ -49,7 +49,7 @@ const Home = () => {
                 cheapest quote
               </p>
               <Link
-                to="/quit"
+                to="/quote"
                 type="button"
                 className="rounded  px-7 pb-[10px] pt-[10px] font-medium bg-red-600 hover:bg-red-700"
               >
@@ -82,7 +82,7 @@ const Home = () => {
             administrate or monitor any of our customers policy
           </p>
 
-          <Link to='/quit'
+          <Link to='/quote'
             type="button"
             class=" text-white border font-medium rounded-lg text-sm px-5 py-2 text-center lg:mt-4 mt-8 mr-2 mb-2 bg-red-600 hover:bg-red-700"
           >
@@ -132,13 +132,13 @@ const Home = () => {
                 <li>5. Multilingual Customer Service team</li>
               </ol>
               {/* <Link
-                to="/quit"
+                to="/quote"
                 className=" font-medium bg-gradient-to-r from-red-600 to-blue-600 hover:from-blue-600 hover:to-red-600 px-6 py-4 rounded-md text-white shadow-md "
               >
                 Get a Quote Now
               </Link> */}
               <Link
-                to="/quit"
+                to="/quote"
                 className=" font-medium bg-red-600 hover:bg-red-700 px-6 py-4 rounded-md text-white shadow-md "
               >
                 Get a Quote Now

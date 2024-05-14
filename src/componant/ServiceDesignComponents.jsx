@@ -22,7 +22,7 @@ const ServiceDesignComponents = ({ item }) => {
                         <h1 className="text-3xl">{title}</h1>
                         <p className=" text-gray-500">{subtitle}</p>
                         <h2 className="text-lg md:text-2xl mb-10">{discription}</h2>
-                        <Link to='/quit'>
+                        <Link to='/quote'>
                         <button className=" text-white mt-5 border  transition-all duration-300  px-6 py-3 rounded-md font-medium bg-red-600 hover:bg-red-700 text-sm">{buttonName}</button>
                         </Link>
                     </div>

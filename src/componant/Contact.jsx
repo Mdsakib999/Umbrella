@@ -184,7 +184,7 @@ const Contact = () => {
                 <li>4. Free customer service for 12 months</li>
                 <li>5. Multilingual Customer Service team</li>
               </ol>
-              <Link to='/quit'
+              <Link to='/quote'
                 type="button"
                 className=" bg-red-600 hover:bg-red-700 px-6 py-3 rounded-md text-white font-medium shadow-md "
               >
