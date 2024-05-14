@@ -1,6 +1,11 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import emailjs from '@emailjs/browser';
+import { TfiEmail } from "react-icons/tfi";
+import { TbPhoneCall } from "react-icons/tb";
+import { FaWhatsapp } from "react-icons/fa";
+import { MdOutlineDateRange } from "react-icons/md";
+import { FaFacebookSquare } from "react-icons/fa";
 
 const Contact = () => {
 
@@ -8,9 +13,9 @@ const Contact = () => {
 
   const {pathname} = useLocation();
 
-  useEffect(() => {
-    window.scroll(0,0);
-  }, [pathname]);
+  // useEffect(() => {
+  //   window.scroll(0,0);
+  // }, [pathname]);
 
   const [formData, setFormData] = useState({
     name: "",
@@ -67,16 +72,23 @@ const Contact = () => {
             You can find us at
           </p>
 
-          <p>EMAIL</p>
-          <p>englandinsure@outlook.com</p>
+          <p className="font-semibold flex items-center gap-2"><TfiEmail className="text-2xl"/> EMAIL</p>
+          <p className="ml-[33px]">hello@englandinsure.com</p>
+          <p className="ml-[33px]">Info@englandinsure.com</p>
 
-          <p className="mt-10">TOLL FREE NUMBER</p>
-          <p>+448000584756</p>
+          <p className="mt-8 font-semibold flex items-center gap-2"> <TbPhoneCall className="text-2xl"/> Contact center: </p>
+          <p className="ml-[31px]">+448000584756 (Toll Free)</p>
 
-          <p className="mt-10">Opening Hours</p>
-          <p>Mon-Sat (9 am-7 pm)</p>
+          <p className="mt-4 font-semibold flex items-center gap-2"><FaWhatsapp className="text-2xl"/> Business WhatsApp: </p>
+          <p className="ml-[30px]">+48505322531</p>
 
-          <p className="mt-10 text-xl">We are based online only</p>
+          <p className="mt-10 font-semibold flex items-center gap-2"><MdOutlineDateRange className="text-2xl"/>Opening Hours</p>
+          <p className="ml-[30px]">Mon - Sat (9 am-7 pm)</p>
+
+          <p className="mt-10 text-xl">We are an online based company.</p>
+          <Link target="_blank" to='https://www.facebook.com/profile.php?id=61559223407380'>
+          <FaFacebookSquare className="text-3xl mt-3"></FaFacebookSquare>
+          </Link>
         </div>
 
 {/* form part */}

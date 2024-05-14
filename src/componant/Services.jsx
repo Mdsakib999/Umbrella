@@ -15,7 +15,7 @@ const Services = () => {
             id: '1',
             title: 'Car Insurance Price',
             subtitle: 'Social use, commuting to work or business use, we have got the right car insurance cover for you at best deal',
-            discription: 'If you are a young driver, an international driving licence holder or holding a Provisional/L llicence, Umbrella is here to beat any other insurance prices on market!',
+            discription: 'If you are a young driver, an international driving licence holder or holding a Provisional/L licence, England Insure is here to beat any other insurance prices on market!',
             buttonName: 'Get a Quote',
             imgUrl: [
                 {
