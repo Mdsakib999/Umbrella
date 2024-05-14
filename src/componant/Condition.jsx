@@ -4,9 +4,9 @@ import { Link, useLocation } from "react-router-dom";
 const Condition = () => {
   const { pathname } = useLocation();
 
-  // useEffect(() => {
-  //   window.scroll(0, 0);
-  // }, [pathname]);
+  useEffect(() => {
+    window.scroll(0, 0);
+  }, [pathname]);
 
   return (
     <div className="bg-zinc-100">

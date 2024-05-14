@@ -84,7 +84,7 @@ const Home = () => {
 
           <Link to='/quit'
             type="button"
-            class=" text-white border font-medium rounded-lg text-sm px-5 py-2.5 text-center mt-4 mr-2 mb-2 bg-red-600 hover:bg-red-700"
+            class=" text-white border font-medium rounded-lg text-sm px-5 py-2 text-center lg:mt-4 mt-8 mr-2 mb-2 bg-red-600 hover:bg-red-700"
           >
             Get a Quote
           </Link>
