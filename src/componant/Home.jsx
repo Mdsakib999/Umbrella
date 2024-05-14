@@ -115,7 +115,7 @@ const Home = () => {
         >
           <div className=" flex h-full items-center justify-center">
             <div className=" text-white">
-              <h2 className="mb-4 lg:text-6xl text-3xl text-blue-600 font-semibold">
+              <h2 className="mb-4 lg:text-6xl text-3xl text-white font-semibold">
                 Why choose us?
               </h2>
               <ol className="text-left mt-10 mb-12 lg:text-xl font-semibold leading-10 px-8 lg:px-0">

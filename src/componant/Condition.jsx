@@ -138,7 +138,7 @@ Under Section 19 of FSMA provides that a person may not carry on a regulated act
             <span className="font-bold mr-2">
             3.3 No Advice
             </span>
-            Sort Services Ltd does not offer financial, investment or other advice. Nothing on this Website constitutes financial, investment or other advice by us in relation to any product.
+            England Insure does not offer financial, investment or other advice. Nothing on this Website constitutes financial, investment or other advice by us in relation to any product.
           </p>
 
           <p>
@@ -312,8 +312,7 @@ Under Section 19 of FSMA provides that a person may not carry on a regulated act
             searching. If the payment does not go through due to incorrect or
             false information provided to us by you, such as but not limited to
             undeclared accidents, penalties & NCB, we reserve the right to
-            charge for our service from the amount that you would pay to Sort
-            Services Ltd, even if we do not manage to find you quotes with the
+            charge for our service from the amount that you would pay to England Insure, even if we do not manage to find you quotes with the
             correct information given to us afterwards. If any similar quotation
             that is generated through our work is bought, the charges for our
             work may apply depending on circumstances. If the insurer imposes
@@ -390,7 +389,7 @@ Under Section 19 of FSMA provides that a person may not carry on a regulated act
           </p>
           <p>
             <span className="font-bold mr-2">8.6</span>
-            This Website is intended to be used for quotation search, but Sort Services Ltd is not able to bind any third-party provider or ensure that any third-party provider sells any product to you. Accordingly, nothing on this Website amounts to an offer by us or any third-party provider to: (a) sell any product to you; or (b) enter into any contract with you.
+            This Website is intended to be used for quotation search, but England Insure is not able to bind any third-party provider or ensure that any third-party provider sells any product to you. Accordingly, nothing on this Website amounts to an offer by us or any third-party provider to: (a) sell any product to you; or (b) enter into any contract with you.
 
           </p>
         </div>
@@ -399,19 +398,19 @@ Under Section 19 of FSMA provides that a person may not carry on a regulated act
           <p className="text-lg font-semibold mt-4">9. Intellectual property rights</p>
           <p>
             <span className="font-bold mr-2">9.1</span>
-            The word or mark “Sort Services Ltd” however represented, all associated logos and symbols, and any combinations with another word or mark, are the trademarks of Sort Services Ltd or one of its group companies.
+            The word or mark “England Insure” however represented, all associated logos and symbols, and any combinations with another word or mark, are the trademarks of England Insure or one of its group companies.
           </p>
           <p>
             <span className="font-bold mr-2">9.2</span>
-            All intellectual property rights in any material or content contained in or accessible via this Website is either owned by Sort Services Ltd or has been licensed to us for use by us.
+            All intellectual property rights in any material or content contained in or accessible via this Website is either owned by England Insure or has been licensed to us for use by us.
           </p>
           <p>
             <span className="font-bold mr-2">9.3</span>
-            You will only make fair use of the trademarks on this Website and will not use them: (A) as part of your own marks; (B) in a manner which is likely to cause confusion or damage to the reputation of Sort Services Ltd; or (C) to identify or imply endorsement or otherwise of products or services to which they do not relate.
+            You will only make fair use of the trademarks on this Website and will not use them: (A) as part of your own marks; (B) in a manner which is likely to cause confusion or damage to the reputation of England Insure; or (C) to identify or imply endorsement or otherwise of products or services to which they do not relate.
           </p>
           <p>
             <span className="font-bold mr-2">9.4</span>
-            Except as set out elsewhere in these Terms of Use, none of the intellectual property rights belonging to Sort Services Ltd or our licensors in and relating to this Website (including any content or material displayed on this Website) may be used, copied, published or distributed by you without our prior written consent.
+            Except as set out elsewhere in these Terms of Use, none of the intellectual property rights belonging to England Insure or our licensors in and relating to this Website (including any content or material displayed on this Website) may be used, copied, published or distributed by you without our prior written consent.
           </p>
         </div>
 
@@ -597,7 +596,7 @@ Under Section 19 of FSMA provides that a person may not carry on a regulated act
           27. Complaints procedure
           </p>
           <p className="pb-10">
-          If you have a complaint about our service or your policy, please contact us first by phone and if after talking to us you are still not happy please write to our Service Quality & Assessment Manager at the address shown below. If you prefer to communicate via email or fax we are happy to correspond with you using these methods as well. You may contact us on 0330 113 2448 between 9am to 5pm Monday to Friday, not including Bank Holidays. We will attempt to resolve your complaint within 48 hours. If this does not happen we will discuss the next step with you. If you wish to write please address your letter to: Complaints Dept Of Sort Services Ltd. Please include details of your name and address, a contact telephone number, your policy or quote number and details of why you are unhappy. If there is insufficient information then we contact you either via telephone or email to ask for further information. Depending on the nature of the complaint it may take up to two weeks for a resolution. During this time you may receive a final response or a letter explaining why we are not yet in a position to resolve your complaint and when we will be contacting you again and if it is found that, due to any sorts of error made from our end (including clerical & typing) you have suffered from any inconveniances, we re-imburse the difference or we refund the full amount of our service charges (subject to eligibility).
+          If you have a complaint about our service or your policy, please contact us first by phone and if after talking to us you are still not happy please write to our Service Quality & Assessment Manager at the address shown below. If you prefer to communicate via email or fax we are happy to correspond with you using these methods as well. You may contact us on 0330 113 2448 between 9am to 5pm Monday to Friday, not including Bank Holidays. We will attempt to resolve your complaint within 48 hours. If this does not happen we will discuss the next step with you. If you wish to write please address your letter to: Complaints Dept Of England Insure. Please include details of your name and address, a contact telephone number, your policy or quote number and details of why you are unhappy. If there is insufficient information then we contact you either via telephone or email to ask for further information. Depending on the nature of the complaint it may take up to two weeks for a resolution. During this time you may receive a final response or a letter explaining why we are not yet in a position to resolve your complaint and when we will be contacting you again and if it is found that, due to any sorts of error made from our end (including clerical & typing) you have suffered from any inconveniances, we re-imburse the difference or we refund the full amount of our service charges (subject to eligibility).
           </p>
         </div>
 
@@ -631,7 +630,7 @@ Under Section 19 of FSMA provides that a person may not carry on a regulated act
           </p>
           <p>
             <span className="font-semibold mr-2">29.4</span>
-            Threaten or abuse employees of Sort Services Ltd either verbally, physically or in any other form.
+            Threaten or abuse employees of England Insure either verbally, physically or in any other form.
           </p>
           <p>
             <span className="font-semibold mr-2">29.5</span>
